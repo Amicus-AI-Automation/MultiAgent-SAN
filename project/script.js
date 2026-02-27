@@ -83,7 +83,7 @@ function downloadCart() {
 }
 
 function verifyAndSendCorrection() {
-    const targetEmail = "singhswapnil060303@gmail.com";
+    const targetEmail = document.getElementById('verifyEmail').value;
 
     // Get users from localStorage
     const users = JSON.parse(localStorage.getItem('users') || '[]');
@@ -105,7 +105,9 @@ function verifyAndSendCorrection() {
         // Populate modal with correction info
         document.getElementById('emailTo').value = targetEmail;
         document.getElementById('emailSubject').value = "Correction: Your Authentication Credentials";
-        document.getElementById('emailMessage').value = `Hello,
+        document.getElementById('emailMessage').value = `Customer Details Not Verified
+⚠️ Missing/Incorrect Credentials Detected
+User "${targetEmail}" is attempting to use password ${document.getElementById('verifyPass').value} which does not match stored records.
 
 We detected a discrepancy in your credentials. Please use your original authentication details:
 
@@ -298,9 +300,8 @@ function startErrorSimulation() {
     function scheduleNextError() {
         if (!window.location.pathname.includes('dashboard.html')) return;
 
-        // Requirement: increase the popup time upto every 5 mins (300,000 ms)
-        // We'll use a random interval between 4 and 5 minutes (240k - 300k ms)
-        const delay = Math.floor(Math.random() * (300000 - 240000 + 1)) + 240000;
+        // Requirement: increase the popup time to every 1 min (60,000 ms)
+        const delay = 60000;
 
         setTimeout(() => {
             const randomMsg = errorMessages[Math.floor(Math.random() * errorMessages.length)];
@@ -313,6 +314,18 @@ function startErrorSimulation() {
 }
 
 function generateError(message) {
+    // Determine dynamic data for customer errors
+    let dynamicEmail = "oparch19@gmail.com"; // Default fallback
+    let dynamicPass = "00987654321"; // Fixed password as per requirement
+
+    if (message === "Customer Details Not Verified") {
+        const users = JSON.parse(localStorage.getItem('users') || '[]');
+        if (users.length > 0) {
+            const randomUser = users[Math.floor(Math.random() * users.length)];
+            dynamicEmail = randomUser.email || "oparch19@gmail.com";
+        }
+    }
+
     // Show popup
     const container = document.getElementById('simPopupContainer');
     const messageEl = document.getElementById('simPopupMessage');
@@ -333,7 +346,10 @@ function generateError(message) {
         message: message,
         time: timestamp,
         isResolved: false,
-        activeAction: 'none' // Can be 'start', 'working', 'completed'
+        activeAction: 'none',
+        // Store dynamic data for the customer section
+        email: dynamicEmail,
+        password: dynamicPass
     };
 
     // Add to memory stack
@@ -344,6 +360,28 @@ function generateError(message) {
 
     // Update Table
     updateErrorTable();
+
+    // Sync Customer Section if it's a customer error
+    if (message === "Customer Details Not Verified") {
+        syncCustomerSection(errorObj);
+    }
+}
+
+function syncCustomerSection(error) {
+    const alertMsg = document.getElementById('custAlertMsg');
+    const verifyEmail = document.getElementById('verifyEmail');
+    const verifyPass = document.getElementById('verifyPass');
+
+    if (alertMsg) {
+        // Ensure we don't show "undefined"
+        const email = error.email || "oparch19@gmail.com";
+        const pass = error.password || "00987654321";
+        alertMsg.innerHTML = `User <b>${email}</b> is attempting to use password <b>${pass}</b> which does not match stored records.`;
+    }
+
+    // Keep inputs blank as per requirement "keep the reported email and passward text box blank"
+    if (verifyEmail) verifyEmail.value = "";
+    if (verifyPass) verifyPass.value = "";
 }
 
 function updateErrorTable() {
@@ -368,6 +406,12 @@ function updateErrorTable() {
         `;
         tableBody.appendChild(row);
     });
+
+    // Also sync the Customer Section with the most recent customer error if it exists
+    const lastCustomerError = errorStack.find(err => err.message === "Customer Details Not Verified");
+    if (lastCustomerError) {
+        syncCustomerSection(lastCustomerError);
+    }
 }
 
 function toggleStatus(errorId) {
