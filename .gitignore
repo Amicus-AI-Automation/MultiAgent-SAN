@@ -3,3 +3,4 @@ venv/Lib
 venv/Lib/site-packages
 venv/Scripts
 MultiAgent-SAN\Monitoring_Agent\rag_sys\venv
+.pyc

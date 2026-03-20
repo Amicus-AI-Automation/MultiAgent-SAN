@@ -1,0 +1,677 @@
+{
+  "timestamp": "2026-03-13T15:54:19.443643",
+  "session_id": "e49945a9-3f4d-4eab-b15e-318819373020",
+  "url": "https://multi-agent-san.vercel.app/dashboard.html",
+  "elements": [
+    {
+      "tag": "button",
+      "id": "logoutBtn",
+      "classes": [
+        "secondary-btn"
+      ],
+      "text": "Logout",
+      "selector": "#logoutBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "li",
+      "id": "menuDashboard",
+      "classes": [
+        "menu-item",
+        "active"
+      ],
+      "text": "Dashboard",
+      "selector": "#menuDashboard",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "li",
+      "id": "menuCart",
+      "classes": [
+        "menu-item"
+      ],
+      "text": "Cart",
+      "selector": "#menuCart",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "li",
+      "id": "menuTeams",
+      "classes": [
+        "menu-item"
+      ],
+      "text": "Teams",
+      "selector": "#menuTeams",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "li",
+      "id": "menuCustomer",
+      "classes": [
+        "menu-item"
+      ],
+      "text": "Customer Details",
+      "selector": "#menuCustomer",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tbody",
+      "id": "errorTableBody",
+      "classes": [],
+      "text": "ERR-9763\n            Customer Details Not Verified\n            15:53:56\n            \n                Resolve\n            \n        \n            ERR-7038\n            Teams Login Issue\n            15:52:",
+      "selector": "#errorTableBody",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 7
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-9763",
+      "classes": [],
+      "text": "ERR-9763\n            Customer Details Not Verified\n            15:53:56\n            \n                Resolve",
+      "selector": "#row-ERR-9763",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-9763",
+      "classes": [
+        "resolve-btn"
+      ],
+      "text": "Resolve",
+      "selector": "#status-btn-ERR-9763",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-7038",
+      "classes": [],
+      "text": "ERR-7038\n            Teams Login Issue\n            15:52:56\n            \n                Resolved",
+      "selector": "#row-ERR-7038",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-7038",
+      "classes": [
+        "resolve-btn",
+        "resolved"
+      ],
+      "text": "Resolved",
+      "selector": "#status-btn-ERR-7038",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-2852",
+      "classes": [],
+      "text": "ERR-2852\n            Customer Details Not Verified\n            15:51:56\n            \n                Resolve",
+      "selector": "#row-ERR-2852",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-2852",
+      "classes": [
+        "resolve-btn"
+      ],
+      "text": "Resolve",
+      "selector": "#status-btn-ERR-2852",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-7120",
+      "classes": [],
+      "text": "ERR-7120\n            Cart Item Add Issue\n            15:50:56\n            \n                Resolved",
+      "selector": "#row-ERR-7120",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-7120",
+      "classes": [
+        "resolve-btn",
+        "resolved"
+      ],
+      "text": "Resolved",
+      "selector": "#status-btn-ERR-7120",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-1382",
+      "classes": [],
+      "text": "ERR-1382\n            Teams Login Issue\n            15:49:56\n            \n                Resolved",
+      "selector": "#row-ERR-1382",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-1382",
+      "classes": [
+        "resolve-btn",
+        "resolved"
+      ],
+      "text": "Resolved",
+      "selector": "#status-btn-ERR-1382",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-6263",
+      "classes": [],
+      "text": "ERR-6263\n            Customer Details Not Verified\n            15:48:56\n            \n                Resolved",
+      "selector": "#row-ERR-6263",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-6263",
+      "classes": [
+        "resolve-btn",
+        "resolved"
+      ],
+      "text": "Resolved",
+      "selector": "#status-btn-ERR-6263",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "tr",
+      "id": "row-ERR-4930",
+      "classes": [],
+      "text": "ERR-4930\n            Teams Login Issue\n            15:47:56\n            \n                Resolved",
+      "selector": "#row-ERR-4930",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "status-btn-ERR-4930",
+      "classes": [
+        "resolve-btn",
+        "resolved"
+      ],
+      "text": "Resolved",
+      "selector": "#status-btn-ERR-4930",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "div",
+      "id": "product1",
+      "classes": [
+        "product-card"
+      ],
+      "text": "Premium Laptop\n                        $1200\n                        Add to\n                            Cart",
+      "selector": "#product1",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 3
+    },
+    {
+      "tag": "button",
+      "id": "p1AddBtn",
+      "classes": [
+        "primary-btn-sm"
+      ],
+      "text": "Add to\n                            Cart",
+      "selector": "#p1AddBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "div",
+      "id": "product2",
+      "classes": [
+        "product-card"
+      ],
+      "text": "Wireless Headphones\n                        $250\n                        Add\n                            to Cart",
+      "selector": "#product2",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 3
+    },
+    {
+      "tag": "button",
+      "id": "p2AddBtn",
+      "classes": [
+        "primary-btn-sm"
+      ],
+      "text": "Add\n                            to Cart",
+      "selector": "#p2AddBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "div",
+      "id": "product3",
+      "classes": [
+        "product-card"
+      ],
+      "text": "High-Res Monitor\n                        $450\n                        Add to\n                            Cart",
+      "selector": "#product3",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 3
+    },
+    {
+      "tag": "button",
+      "id": "p3AddBtn",
+      "classes": [
+        "primary-btn-sm"
+      ],
+      "text": "Add to\n                            Cart",
+      "selector": "#p3AddBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "button",
+      "id": "downloadCartBtn",
+      "classes": [
+        "secondary-btn"
+      ],
+      "text": "Download Cart\n                            Details",
+      "selector": "#downloadCartBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "button",
+      "id": "sendEmailBtn",
+      "classes": [
+        "secondary-btn"
+      ],
+      "text": "Send Email",
+      "selector": "#sendEmailBtn",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "select",
+      "id": "adminSelect",
+      "classes": [
+        "input-field"
+      ],
+      "text": "Choose an Administrator\n                                Admin 1 - Swapnil (9 am to 5 pm)\n                                \n                                Admin 2 - Nandani (6 pm to 2 am)\n             ",
+      "selector": "#adminSelect",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 4
+    },
+    {
+      "tag": "button",
+      "id": "submitTeamIssueBtn",
+      "classes": [
+        "primary-btn"
+      ],
+      "text": "Send & Assign",
+      "selector": "#submitTeamIssueBtn",
+      "attributes": {
+        "type": "submit",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "input",
+      "id": "verifyEmail",
+      "classes": [
+        "input-field"
+      ],
+      "text": "",
+      "selector": "#verifyEmail",
+      "attributes": {
+        "type": "email",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "input",
+      "id": "verifyPass",
+      "classes": [
+        "input-field"
+      ],
+      "text": "",
+      "selector": "#verifyPass",
+      "attributes": {
+        "type": "text",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "button",
+      "id": "verifyBtn",
+      "classes": [
+        "primary-btn"
+      ],
+      "text": "Verify & Send Correction",
+      "selector": "#verifyBtn",
+      "attributes": {
+        "type": "button",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "div",
+      "id": "simPopupContainer",
+      "classes": [
+        "popup-container",
+        "hidden"
+      ],
+      "text": "Customer Details Not Verified",
+      "selector": "#simPopupContainer",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "true",
+        "value": ""
+      },
+      "children_count": 1
+    },
+    {
+      "tag": "div",
+      "id": "simPopupContent",
+      "classes": [
+        "popup-content",
+        "error"
+      ],
+      "text": "Customer Details Not Verified",
+      "selector": "#simPopupContent",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 1
+    },
+    {
+      "tag": "span",
+      "id": "simPopupMessage",
+      "classes": [],
+      "text": "Customer Details Not Verified",
+      "selector": "#simPopupMessage",
+      "attributes": {
+        "type": "",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "input",
+      "id": "emailTo",
+      "classes": [
+        "input-field"
+      ],
+      "text": "",
+      "selector": "#emailTo",
+      "attributes": {
+        "type": "email",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": "oparchon@gmail.com"
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "input",
+      "id": "emailSubject",
+      "classes": [
+        "input-field"
+      ],
+      "text": "",
+      "selector": "#emailSubject",
+      "attributes": {
+        "type": "text",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": "worked on this error"
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "button",
+      "id": "emailSendBtn",
+      "classes": [
+        "primary-btn"
+      ],
+      "text": "Send Now",
+      "selector": "#emailSendBtn",
+      "attributes": {
+        "type": "submit",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    },
+    {
+      "tag": "button",
+      "id": "emailCancelBtn",
+      "classes": [
+        "secondary-btn"
+      ],
+      "text": "Cancel",
+      "selector": "#emailCancelBtn",
+      "attributes": {
+        "type": "button",
+        "href": "",
+        "disabled": "false",
+        "hidden": "false",
+        "value": ""
+      },
+      "children_count": 0
+    }
+  ]
+}

@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # Load knowledge base
-with open("knowledge_base.json", "r") as f:
+with open("rag_sys/Knowledge_base.json", "r") as f:
     kb = json.load(f)
 
 # Prepare texts
@@ -28,6 +28,6 @@ index = faiss.IndexFlatL2(dimension)
 index.add(embeddings)
 
 # Save index
-faiss.write_index(index, "vector_store.index")
+faiss.write_index(index, "rag_sys/vector_store.index")
 
 print("Index created successfully.")

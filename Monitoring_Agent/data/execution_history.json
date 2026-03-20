@@ -1,0 +1,538 @@
+[
+  {
+    "error_id": "ERR-9895",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 6,
+    "details": "Verified resolved. 6/6 steps completed.",
+    "timestamp": "2026-02-27T17:12:14.849442"
+  },
+  {
+    "error_id": "ERR-6950",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 6,
+    "details": "Verified resolved. 6/6 steps completed.",
+    "timestamp": "2026-02-27T17:13:15.708948"
+  },
+  {
+    "error_id": "ERR-5685",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T17:15:37.558390"
+  },
+  {
+    "error_id": "ERR-5595",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 6,
+    "details": "Verified resolved. 5/6 steps completed.",
+    "timestamp": "2026-02-27T17:52:52.898915"
+  },
+  {
+    "error_id": "ERR-9586",
+    "resolution_status": "failed",
+    "steps_completed": 5,
+    "steps_total": 6,
+    "details": "Resolution not verified. 5/6 steps completed.",
+    "timestamp": "2026-02-27T17:54:11.931983"
+  },
+  {
+    "error_id": "ERR-3448",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T17:55:28.634653"
+  },
+  {
+    "error_id": "ERR-1651",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T17:56:17.389610"
+  },
+  {
+    "error_id": "ERR-5469",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T18:59:00.892849"
+  },
+  {
+    "error_id": "ERR-2797",
+    "resolution_status": "resolved",
+    "steps_completed": 4,
+    "steps_total": 5,
+    "details": "Verified resolved. 4/5 steps completed.",
+    "timestamp": "2026-02-27T19:00:56.287663"
+  },
+  {
+    "error_id": "ERR-2732",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:01:15.245304"
+  },
+  {
+    "error_id": "ERR-5918",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:03:07.722477"
+  },
+  {
+    "error_id": "ERR-3554",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T19:23:55.437304"
+  },
+  {
+    "error_id": "ERR-2188",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:24:59.444384"
+  },
+  {
+    "error_id": "ERR-3160",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T19:25:57.488101"
+  },
+  {
+    "error_id": "ERR-1633",
+    "resolution_status": "resolved",
+    "steps_completed": 7,
+    "steps_total": 7,
+    "details": "Verified resolved. 7/7 steps completed.",
+    "timestamp": "2026-02-27T19:26:59.975741"
+  },
+  {
+    "error_id": "ERR-2942",
+    "resolution_status": "resolved",
+    "steps_completed": 7,
+    "steps_total": 7,
+    "details": "Verified resolved. 7/7 steps completed.",
+    "timestamp": "2026-02-27T19:27:59.023635"
+  },
+  {
+    "error_id": "ERR-5821",
+    "resolution_status": "resolved",
+    "steps_completed": 7,
+    "steps_total": 7,
+    "details": "Verified resolved. 7/7 steps completed.",
+    "timestamp": "2026-02-27T19:29:02.715244"
+  },
+  {
+    "error_id": "ERR-7278",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:30:00.709211"
+  },
+  {
+    "error_id": "ERR-8928",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:40:06.149470"
+  },
+  {
+    "error_id": "ERR-9506",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T19:45:57.622743"
+  },
+  {
+    "error_id": "ERR-4738",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-02-27T19:47:02.759651"
+  },
+  {
+    "error_id": "ERR-8640",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T19:51:15.441133"
+  },
+  {
+    "error_id": "ERR-5282",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-02-27T19:55:46.195672"
+  },
+  {
+    "error_id": "ERR-6459",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T17:15:48.444944"
+  },
+  {
+    "error_id": "ERR-5867",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:18:45.930572"
+  },
+  {
+    "error_id": "ERR-4139",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:21:11.346751"
+  },
+  {
+    "error_id": "ERR-7822",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:23:32.036859"
+  },
+  {
+    "error_id": "ERR-5265",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:25:57.514381"
+  },
+  {
+    "error_id": "ERR-2874",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T17:26:22.197084"
+  },
+  {
+    "error_id": "ERR-4672",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:26:38.119779"
+  },
+  {
+    "error_id": "ERR-5610",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T17:27:04.627964"
+  },
+  {
+    "error_id": "ERR-5552",
+    "resolution_status": "failed",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Resolution not verified. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:29:21.903727"
+  },
+  {
+    "error_id": "ERR-6985",
+    "resolution_status": "resolved",
+    "steps_completed": 3,
+    "steps_total": 8,
+    "details": "Verified resolved. 3/8 steps completed.",
+    "timestamp": "2026-03-09T17:39:46.752600"
+  },
+  {
+    "error_id": "ERR-6873",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:39:55.119875"
+  },
+  {
+    "error_id": "ERR-9473",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:40:03.909989"
+  },
+  {
+    "error_id": "ERR-3985",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:42:18.148087"
+  },
+  {
+    "error_id": "ERR-7516",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:44:32.503678"
+  },
+  {
+    "error_id": "ERR-1311",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:44:40.171311"
+  },
+  {
+    "error_id": "ERR-1677",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:46:59.905825"
+  },
+  {
+    "error_id": "ERR-6162",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:49:14.141617"
+  },
+  {
+    "error_id": "ERR-5531",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:49:22.061935"
+  },
+  {
+    "error_id": "ERR-5083",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:51:36.194886"
+  },
+  {
+    "error_id": "ERR-5263",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:51:44.027192"
+  },
+  {
+    "error_id": "ERR-1832",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:53:58.624687"
+  },
+  {
+    "error_id": "ERR-1233",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:54:06.772077"
+  },
+  {
+    "error_id": "ERR-7239",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:56:20.303657"
+  },
+  {
+    "error_id": "ERR-9715",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:56:27.706823"
+  },
+  {
+    "error_id": "ERR-7484",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T17:58:41.195779"
+  },
+  {
+    "error_id": "ERR-8742",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:58:48.716225"
+  },
+  {
+    "error_id": "ERR-9633",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T17:58:56.213171"
+  },
+  {
+    "error_id": "ERR-8049",
+    "resolution_status": "failed",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Resolution not verified. 6/7 steps completed.",
+    "timestamp": "2026-03-09T18:01:09.759596"
+  },
+  {
+    "error_id": "ERR-1071",
+    "resolution_status": "failed",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Resolution not verified. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:01:21.708947"
+  },
+  {
+    "error_id": "ERR-6964",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T18:03:40.893817"
+  },
+  {
+    "error_id": "ERR-9424",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:03:55.925685"
+  },
+  {
+    "error_id": "ERR-3695",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:04:07.854089"
+  },
+  {
+    "error_id": "ERR-5609",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T18:06:21.437195"
+  },
+  {
+    "error_id": "ERR-6267",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:06:33.050662"
+  },
+  {
+    "error_id": "ERR-1498",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:06:44.565821"
+  },
+  {
+    "error_id": "ERR-9761",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:06:56.589291"
+  },
+  {
+    "error_id": "ERR-1205",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-09T18:07:08.097410"
+  },
+  {
+    "error_id": "ERR-9232",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-09T18:07:15.825368"
+  },
+  {
+    "error_id": "ERR-1898",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-09T18:09:29.510763"
+  },
+  {
+    "error_id": "ERR-4930",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-13T15:48:08.139400"
+  },
+  {
+    "error_id": "ERR-6263",
+    "resolution_status": "resolved",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Verified resolved. 6/7 steps completed.",
+    "timestamp": "2026-03-13T15:51:12.780838"
+  },
+  {
+    "error_id": "ERR-7120",
+    "resolution_status": "resolved",
+    "steps_completed": 8,
+    "steps_total": 8,
+    "details": "Verified resolved. 8/8 steps completed.",
+    "timestamp": "2026-03-13T15:51:31.488928"
+  },
+  {
+    "error_id": "ERR-1382",
+    "resolution_status": "resolved",
+    "steps_completed": 5,
+    "steps_total": 5,
+    "details": "Verified resolved. 5/5 steps completed.",
+    "timestamp": "2026-03-13T15:51:39.777943"
+  },
+  {
+    "error_id": "ERR-2852",
+    "resolution_status": "failed",
+    "steps_completed": 6,
+    "steps_total": 7,
+    "details": "Resolution not verified. 6/7 steps completed.",
+    "timestamp": "2026-03-13T15:54:14.356932"
+  }
+]

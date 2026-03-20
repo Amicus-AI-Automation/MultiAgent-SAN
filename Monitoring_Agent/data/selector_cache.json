@@ -1,0 +1,110 @@
+{
+    "Customer Details not verified|customer details not verified": [
+        {
+            "action": "click",
+            "selector": "#menuCustomer",
+            "description": "Navigate to Customer Detail"
+        },
+        {
+            "action": "fill",
+            "selector": "#verifyEmail",
+            "value": "{reported_email}",
+            "description": "Enter reported email"
+        },
+        {
+            "action": "click",
+            "selector": "#verifyBtn",
+            "description": "Verify credentials"
+        },
+        {
+            "action": "click",
+            "selector": "#emailSendBtn",
+            "description": "Send Now button"
+        },
+        {
+            "action": "wait",
+            "selector": "",
+            "value": "3000",
+            "description": "Wait for email to be sent"
+        },
+        {
+            "action": "click",
+            "selector": "#menuDashboard",
+            "description": "Return to Dashboard"
+        },
+        {
+            "action": "click",
+            "selector": "#status-btn-{error_id}",
+            "description": "Resolve error row"
+        }
+    ],
+    "Cart item add issue|cart item add issue": [
+        {
+            "action": "click",
+            "selector": "#menuCart",
+            "description": "Navigate to Cart"
+        },
+        {
+            "action": "click",
+            "selector": "#p1AddBtn",
+            "description": "Add Laptop to cart"
+        },
+        {
+            "action": "click",
+            "selector": "#p2AddBtn",
+            "description": "Add Headphones to cart"
+        },
+        {
+            "action": "click",
+            "selector": "#downloadCartBtn",
+            "description": "Download cart"
+        },
+        {
+            "action": "click",
+            "selector": "#sendEmailBtn",
+            "description": "Open email modal"
+        },
+        {
+            "action": "click",
+            "selector": "#emailSendBtn",
+            "description": "Confirm send email"
+        },
+        {
+            "action": "click",
+            "selector": "#menuDashboard",
+            "description": "Return to Dashboard"
+        },
+        {
+            "action": "click",
+            "selector": "#status-btn-{error_id}",
+            "description": "Resolve error row"
+        }
+    ],
+    "Teams Login Issue|teams login issue": [
+        {
+            "action": "click",
+            "selector": "#menuTeams",
+            "description": "Navigate to Teams"
+        },
+        {
+            "action": "click",
+            "selector": "#adminSelect",
+            "description": "Select Admin"
+        },
+        {
+            "action": "click",
+            "selector": "#submitTeamIssueBtn",
+            "description": "Assign team"
+        },
+        {
+            "action": "click",
+            "selector": "#menuDashboard",
+            "description": "Return to Dashboard"
+        },
+        {
+            "action": "click",
+            "selector": "#status-btn-{error_id}",
+            "description": "Resolve error row"
+        }
+    ]
+}

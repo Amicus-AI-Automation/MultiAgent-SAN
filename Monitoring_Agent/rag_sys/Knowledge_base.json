@@ -1,7 +1,7 @@
 [
   {
-    "issue_type": "Team login issue",
-    "resolution_steps": "1. Click on 'Teams' in the sidebar menu. 2. Select 'Admin' based on the current shift timing. 3. Click the 'Send & Assign' button. 4. Click on 'Dashboard'from the sidebar menu. 5. Click the 'Resolve' button for the same error."
+    "issue_type": "Teams Login Issue",
+    "resolution_steps": "1. Click on 'Teams' in the sidebar menu. 2. Select 'Admin' from the dropdown menu based on the current shift timing . 3. Click the 'Send & Assign' button. 4. Click on 'Dashboard'from the sidebar menu. 5. Click the 'Resolve' button for the same error."
   },
   {
     "issue_type": "Cart item add issue",
@@ -9,6 +9,6 @@
   },
   {
     "issue_type": "Customer Details not verified",
-    "resolution_steps": "1. Click on 'Customer Detail' from the sidebar menu. 2. Locate the 'Missing/Incorrect Credentials Detected' card and identify the reported email ID shown there. 3. Enter the same reported email ID into the email input field. 4. Click the 'Verify & Send Correction' button. 5. Click on 'Dashboard' from the sidebar menu. 6. Click the 'Resolve' button for the same error."
+    "resolution_steps": "1. Click on 'Customer Detail' from the sidebar menu. 2. Locate the 'Missing/Incorrect Credentials Detected' card and identify the reported email ID shown there. 3. Enter the same reported email ID into the email input field. 4. Click the 'Verify & Send Correction' button. 5. Click 'Send Now' button and wait untill the email is sent. 6. Click on 'Dashboard' from the sidebar menu. 7. Click the 'Resolve' button for the same error."
   }
 ]
