@@ -1,10 +1,10 @@
-# 🕵️ Autonomous Monitoring Agent
+# Autonomous Monitoring Agent
 
 An agentic AI system designed to autonomously monitor, diagnose, and resolve UI errors on web applications using a multi-agent architecture powered by **LLM**, **RAG**, and **Playwright**.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Multi-Agent Orchestration**: Specialized agents for Observation, Diagnosis, and Execution.
 - **RAG Intelligence**: Semantic search (FAISS + SentenceTransformers) to match errors with known resolution steps.
@@ -14,7 +14,7 @@ An agentic AI system designed to autonomously monitor, diagnose, and resolve UI 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The system follows a continuous feedback loop:
 
@@ -25,7 +25,7 @@ The system follows a continuous feedback loop:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Monitoring_Agent/
@@ -40,7 +40,7 @@ Monitoring_Agent/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 - Python 3.10+
@@ -67,8 +67,5 @@ python main.py
 
 ---
 
-## 🛠️ Internal Reference
-For deep technical details on agent roles and data flow, see [Architecture_Reference.md](./Architecture_Reference.md).
 
----
 
