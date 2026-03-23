@@ -209,20 +209,35 @@ jobs:
           echo "── Tags ──"
           git tag -l
 
-      # ── Step 4: Add Azure DevOps as a remote ──
-      - name: Configure Azure DevOps remote
+      # ── Step 4: Add Azure DevOps as a remote ──      - name: Configure Azure DevOps remote
         env:
           AZURE_DEVOPS_PAT: ${{ secrets.AZURE_DEVOPS_PAT }}
         run: |
           # Disable git from using a credential helper that might interfere
           git config --local credential.helper ""
 
+          # Trim whitespace/newlines from variables (guards against copy-paste errors)
+          ADO_ORG=$(echo "${{ vars.AZURE_DEVOPS_ORG }}" | tr -d '[:space:]')
+          ADO_PROJECT=$(echo "${{ vars.AZURE_DEVOPS_PROJECT }}" | tr -d '[:space:]')
+          ADO_REPO=$(echo "${{ vars.AZURE_DEVOPS_REPO }}" | tr -d '[:space:]')
+
+          echo "── Resolved Azure DevOps coordinates ──"
+          echo "   Org:     [${ADO_ORG}]"
+          echo "   Project: [${ADO_PROJECT}]"
+          echo "   Repo:    [${ADO_REPO}]"
+
+          # Validate none are empty after trimming
+          if [ -z "$ADO_ORG" ] || [ -z "$ADO_PROJECT" ] || [ -z "$ADO_REPO" ]; then
+            echo "::error::One or more Azure DevOps variables are empty after trimming. Check your GitHub repository variables."
+            exit 1
+          fi
+
           # URL-encode the PAT to handle special characters
           ENCODED_PAT=$(python3 -c "import urllib.parse; print(urllib.parse.quote('${AZURE_DEVOPS_PAT}', safe=''))")
 
           # Construct the Azure DevOps repo URL with embedded PAT for auth
           # Format: https://<PAT>@dev.azure.com/<org>/<project>/_git/<repo>
-          AZURE_REPO_URL="https://${ENCODED_PAT}@dev.azure.com/${{ vars.AZURE_DEVOPS_ORG }}/${{ vars.AZURE_DEVOPS_PROJECT }}/_git/${{ vars.AZURE_DEVOPS_REPO }}"
+          AZURE_REPO_URL="https://${ENCODED_PAT}@dev.azure.com/${ADO_ORG}/${ADO_PROJECT}/_git/${ADO_REPO}"
 
           # Add as a remote (remove first if it already exists)
           git remote remove azure 2>/dev/null || true
@@ -230,14 +245,20 @@ jobs:
 
           # Verify the remote is reachable (without exposing PAT)
           echo "✅ Azure DevOps remote configured."
-          echo "   Target: https://dev.azure.com/${{ vars.AZURE_DEVOPS_ORG }}/${{ vars.AZURE_DEVOPS_PROJECT }}/_git/${{ vars.AZURE_DEVOPS_REPO }}"
+          echo "   Target: https://dev.azure.com/${ADO_ORG}/${ADO_PROJECT}/_git/${ADO_REPO}"
 
           # Test connectivity
           if git ls-remote azure HEAD > /dev/null 2>&1; then
             echo "✅ Successfully connected to Azure DevOps repository."
           else
             echo "::error::Cannot reach Azure DevOps repository. Check PAT, org, project, and repo name."
-            echo "   Verify URL: https://dev.azure.com/${{ vars.AZURE_DEVOPS_ORG }}/${{ vars.AZURE_DEVOPS_PROJECT }}/_git/${{ vars.AZURE_DEVOPS_REPO }}"
+            echo "   Verify URL: https://dev.azure.com/${ADO_ORG}/${ADO_PROJECT}/_git/${ADO_REPO}"
+            echo ""
+            echo "::error::Common causes:"
+            echo "   1. PAT expired or missing 'Code (Read & Write)' scope"
+            echo "   2. Org/Project/Repo name is misspelled (check for typos)"
+            echo "   3. The repository does not exist in Azure DevOps yet"
+            echo "   4. PAT was created for a different Azure DevOps organization"
             exit 1
           fi
 
