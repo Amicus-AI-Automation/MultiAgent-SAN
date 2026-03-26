@@ -54,9 +54,17 @@ playwright install chromium
 
 ### 3. Configuration
 Set the following environment variables (or update `core/config.py`):
+
+#### On **Linux/macOS** (bash/zsh):
 ```bash
 export GROQ_API_KEY="your_api_key_here"
 export GROQ_MODEL="openai/gpt-oss-20b"
+```
+
+#### On **Windows PowerShell**:
+```powershell
+$env:GROQ_API_KEY = "your_api_key_here"
+$env:GROQ_MODEL = "openai/gpt-oss-20b"
 ```
 
 ### 4. Run the Agent

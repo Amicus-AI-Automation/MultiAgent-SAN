@@ -136,5 +136,53 @@
     "session_id": "57edd8c7-2cfa-4435-98e0-deaae472944b",
     "login_timestamp": "2026-03-23T13:25:14.926662",
     "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "ca564f98-f4d6-4136-9dc3-f23ce7e61f54",
+    "login_timestamp": "2026-03-26T11:42:48.563737",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "91f4d4de-a9bb-42cb-87f3-0b96852c3030",
+    "login_timestamp": "2026-03-26T11:44:24.008133",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "f320ba97-2542-444f-951a-280be77284a8",
+    "login_timestamp": "2026-03-26T11:53:11.379143",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "a4166605-9e1f-4b48-a175-66479c957851",
+    "login_timestamp": "2026-03-26T12:10:23.504240",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "cdac79d6-d416-4a2d-8060-8f3639b7b4be",
+    "login_timestamp": "2026-03-26T12:27:23.080852",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "3b3f46ab-019f-4c6e-b9cf-bb4ebd60ccd3",
+    "login_timestamp": "2026-03-26T12:30:08.554448",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "4617b2c8-43a2-4164-81f3-ba93d09f7425",
+    "login_timestamp": "2026-03-26T12:33:06.343799",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "d26839bb-e8b5-412a-8f08-aaec1cf2a4ac",
+    "login_timestamp": "2026-03-26T12:37:33.378706",
+    "is_active": false
   }
 ]

@@ -4,7 +4,17 @@ All settings, URLs, paths, and tunables in one place.
 """
 
 import os
+from dotenv import load_dotenv
 from pathlib import Path
+# Always load .env from the project root (WebOps/.env or WebOps/Monitoring_Agent/.env)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DOTENV_PATHS = [
+	PROJECT_ROOT / '.env',
+	PROJECT_ROOT / 'Monitoring_Agent' / '.env',
+]
+for dotenv_path in DOTENV_PATHS:
+	if dotenv_path.exists():
+		load_dotenv(dotenv_path=dotenv_path, override=True)
 
 # ─── Base Paths ───────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
