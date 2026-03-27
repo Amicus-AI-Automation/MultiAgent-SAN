@@ -32,8 +32,7 @@ logger = logging.getLogger("SharedMemory")
 _file_lock = Lock()
 
 
-# ─── Site Snapshot ────────────────────────────────────────────────────────────
-
+# Site Snapshot 
 def write_snapshot(snapshot: SiteSnapshot) -> None:
     """Save a site snapshot to disk."""
     with _file_lock:
@@ -56,7 +55,7 @@ def read_snapshot() -> SiteSnapshot | None:
         return None
 
 
-# ─── Live Changes ────────────────────────────────────────────────────────────
+# Live Changes 
 
 def append_live_changes(changes: list[LiveChange]) -> None:
     """Append mutation records to the live changes file."""
@@ -90,7 +89,7 @@ def read_live_changes() -> list[LiveChange]:
         return []
 
 
-# ─── Error Log (CSV) ─────────────────────────────────────────────────────────
+# Error Log (CSV) 
 
 ERROR_CSV_HEADERS = [
     "timestamp", "session_id", "error_id", "message", "status", "resolved_time"
@@ -152,7 +151,7 @@ def read_error_log() -> list[dict]:
     return entries
 
 
-# ─── Execution History ────────────────────────────────────────────────────────
+# Execution History 
 
 def append_execution_history(result: ExecutionResult) -> None:
     """Append an execution result to the history file."""
@@ -183,7 +182,7 @@ def read_execution_history() -> list[ExecutionResult]:
     except Exception as e:
         logger.warning(f"Could not read execution history: {e}")
         return []
-# ─── Selector Cache ──────────────────────────────────────────────────────────
+# Selector Cache 
 
 def get_cached_plan(issue_type: str, error_message: str) -> list[dict] | None:
     """Retrieve a previously grounded execution plan from cache."""

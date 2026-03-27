@@ -166,7 +166,7 @@ class SnapshotAgent:
         self._monitor_task: asyncio.Task | None = None
         self._mutation_task: asyncio.Task | None = None
 
-    # ─── Public API ───────────────────────────────────────────────────────
+    # Public API 
 
     def set_error_callback(self, callback: Callable[[ErrorEntry], Coroutine]) -> None:
         """Register a callback to invoke when a new unresolved error is detected."""
@@ -195,7 +195,7 @@ class SnapshotAgent:
             self._mutation_task.cancel()
         logger.info(f"[Session {self.session_id}] SnapshotAgent stopped.")
 
-    # ─── Core Loops ───────────────────────────────────────────────────────
+    # Core Loops
 
     async def _monitoring_loop(self, page: Page) -> None:
         """Main monitoring loop: capture snapshot → detect errors → trigger."""
@@ -244,7 +244,7 @@ class SnapshotAgent:
                 logger.error(f"Mutation flush error: {e}")
                 await asyncio.sleep(MUTATION_FLUSH_INTERVAL_SEC)
 
-    # ─── Snapshot Generation ──────────────────────────────────────────────
+    # Snapshot Generation 
 
     async def inject_mutation_observer(self, page: Page) -> None:
         """Inject the MutationObserver script into the page."""
@@ -271,7 +271,7 @@ class SnapshotAgent:
             logger.error(f"Snapshot capture failed: {e}")
             return SiteSnapshot(session_id=self.session_id)
 
-    # ─── Error Detection ─────────────────────────────────────────────────
+    # Error Detection 
 
     async def detect_errors(self, page: Page) -> list[ErrorEntry]:
         """Scan for unresolved errors dynamically."""

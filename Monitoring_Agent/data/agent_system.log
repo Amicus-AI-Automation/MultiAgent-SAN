@@ -7603,3 +7603,440 @@ Call log:
 2026-03-26 12:42:44,969 │ INFO     │ Main               │   MONITORING SYSTEM SHUT DOWN
 2026-03-26 12:42:44,972 │ INFO     │ Main               │   Time: 2026-03-26T12:42:44.972423
 2026-03-26 12:42:44,974 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:51:18,121 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:51:18,122 │ INFO     │ Main               │   AGENTIC AUTONOMOUS MONITORING SYSTEM
+2026-03-26 12:51:18,123 │ INFO     │ Main               │   Started: 2026-03-26T12:51:18.123690
+2026-03-26 12:51:18,124 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:51:20,155 │ INFO     │ Main               │ Launching browser...
+2026-03-26 12:51:21,636 │ INFO     │ Main               │ Navigating to login page: https://multi-agent-san.vercel.app/
+2026-03-26 12:51:23,994 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:51:23,996 │ INFO     │ Main               │    ACTION REQUIRED: Please log in manually in the browser.  
+2026-03-26 12:51:23,997 │ INFO     │ Main               │    The system will resume after you reach the dashboard.    
+2026-03-26 12:51:23,998 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:52:05,534 │ INFO     │ Main               │ ✓ Dashboard detected. Starting monitoring system...
+2026-03-26 12:52:05,579 │ INFO     │ Main               │ ✓ Session detected: {'email': 'oparchon@gmail.com'}
+2026-03-26 12:52:05,635 │ INFO     │ SessionManager     │ Session created: 2f9242d8-2f60-4091-b281-caf215120eb8 for user oparchon@gmail.com
+2026-03-26 12:52:05,636 │ INFO     │ Main               │ Monitoring session created: 2f9242d8-2f60-4091-b281-caf215120eb8
+2026-03-26 12:52:05,638 │ INFO     │ DiagnosisAgent     │ Initializing DiagnosisAgent — loading RAG & Gemini components...
+2026-03-26 12:52:05,650 │ INFO     │ sentence_transformers.SentenceTransformer │ Use pytorch device_name: cpu
+2026-03-26 12:52:05,651 │ INFO     │ sentence_transformers.SentenceTransformer │ Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-26 12:52:05,671 │ DEBUG    │ urllib3.connectionpool │ Starting new HTTPS connection (1): huggingface.co:443
+2026-03-26 12:52:08,047 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2026-03-26 12:52:08,098 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2026-03-26 12:52:08,349 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2026-03-26 12:52:08,401 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2026-03-26 12:52:08,665 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2026-03-26 12:52:08,749 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2026-03-26 12:52:08,999 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2026-03-26 12:52:09,047 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2026-03-26 12:52:09,296 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2026-03-26 12:52:09,354 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2026-03-26 12:52:09,629 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2026-03-26 12:52:09,899 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2026-03-26 12:52:09,961 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2026-03-26 12:52:10,385 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2026-03-26 12:52:10,435 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2026-03-26 12:52:10,714 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2026-03-26 12:52:10,967 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 None
+2026-03-26 12:52:11,381 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 None
+2026-03-26 12:52:11,687 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 None
+2026-03-26 12:52:12,649 │ INFO     │ DiagnosisAgent     │ DiagnosisAgent ready. KB size: 3, Index size: 3
+2026-03-26 12:52:12,650 │ INFO     │ ExecutionAgent     │ ExecutionAgent initialized.
+2026-03-26 12:52:12,650 │ INFO     │ Orchestrator       │ Orchestrator initialized for session 2f9242d8-2f60-4091-b281-caf215120eb8
+2026-03-26 12:52:14,671 │ INFO     │ Orchestrator       │ ============================================================
+2026-03-26 12:52:14,672 │ INFO     │ Orchestrator       │   AGENTIC MONITORING SYSTEM ACTIVATED
+2026-03-26 12:52:14,674 │ INFO     │ Orchestrator       │   Session: 2f9242d8-2f60-4091-b281-caf215120eb8
+2026-03-26 12:52:14,675 │ INFO     │ Orchestrator       │   Time: 2026-03-26T12:52:14.675249
+2026-03-26 12:52:14,676 │ INFO     │ Orchestrator       │ ============================================================
+2026-03-26 12:52:14,677 │ INFO     │ SnapshotAgent      │ [Session 2f9242d8-2f60-4091-b281-caf215120eb8] SnapshotAgent starting...
+2026-03-26 12:52:14,707 │ INFO     │ SnapshotAgent      │ MutationObserver injected successfully.
+2026-03-26 12:52:14,709 │ INFO     │ SnapshotAgent      │ [Session 2f9242d8-2f60-4091-b281-caf215120eb8] SnapshotAgent active — monitoring dashboard.
+2026-03-26 12:52:14,710 │ INFO     │ Orchestrator       │ All agents active. Monitoring dashboard...
+2026-03-26 12:52:14,711 │ INFO     │ Main               │ Entering continuous monitoring mode. Press Ctrl+C to stop.
+2026-03-26 12:52:14,911 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-26 12:52:17,325 │ INFO     │ Main               │ Initiating graceful shutdown...
+2026-03-26 12:52:17,327 │ INFO     │ Orchestrator       │ Shutting down orchestrator...
+2026-03-26 12:52:17,330 │ INFO     │ SnapshotAgent      │ [Session 2f9242d8-2f60-4091-b281-caf215120eb8] SnapshotAgent stopped.
+2026-03-26 12:52:17,332 │ INFO     │ Orchestrator       │ All agents stopped. Orchestrator shutdown complete.
+2026-03-26 12:52:17,439 │ INFO     │ SessionManager     │ Session deactivated: 2f9242d8-2f60-4091-b281-caf215120eb8
+2026-03-26 12:52:17,522 │ INFO     │ Main               │ ============================================================
+2026-03-26 12:52:17,524 │ INFO     │ Main               │   MONITORING SYSTEM SHUT DOWN
+2026-03-26 12:52:17,531 │ INFO     │ Main               │   Time: 2026-03-26T12:52:17.531231
+2026-03-26 12:52:17,535 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:36:51,051 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:36:51,052 │ INFO     │ Main               │   AGENTIC AUTONOMOUS MONITORING SYSTEM
+2026-03-27 16:36:51,052 │ INFO     │ Main               │   Started: 2026-03-27T16:36:51.052542
+2026-03-27 16:36:51,052 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:36:55,755 │ INFO     │ Main               │ Launching browser...
+2026-03-27 16:36:57,844 │ INFO     │ Main               │ Navigating to login page: https://multi-agent-san.vercel.app/
+2026-03-27 16:36:59,660 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:36:59,660 │ INFO     │ Main               │    ACTION REQUIRED: Please log in manually in the browser.  
+2026-03-27 16:36:59,661 │ INFO     │ Main               │    The system will resume after you reach the dashboard.    
+2026-03-27 16:36:59,661 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:37:27,319 │ INFO     │ Main               │ ✓ Dashboard detected. Starting monitoring system...
+2026-03-27 16:37:27,332 │ INFO     │ Main               │ ✓ Session detected: {'email': 'oparchon@gmail.com'}
+2026-03-27 16:37:27,350 │ INFO     │ SessionManager     │ Session created: ae03ffbc-d013-418c-b656-d252c9eb9707 for user oparchon@gmail.com
+2026-03-27 16:37:27,351 │ INFO     │ Main               │ Monitoring session created: ae03ffbc-d013-418c-b656-d252c9eb9707
+2026-03-27 16:37:27,351 │ INFO     │ DiagnosisAgent     │ Initializing DiagnosisAgent — loading RAG & Gemini components...
+2026-03-27 16:37:27,354 │ INFO     │ sentence_transformers.SentenceTransformer │ Use pytorch device_name: cpu
+2026-03-27 16:37:27,366 │ INFO     │ sentence_transformers.SentenceTransformer │ Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-27 16:37:27,389 │ DEBUG    │ urllib3.connectionpool │ Starting new HTTPS connection (1): huggingface.co:443
+2026-03-27 16:37:29,479 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2026-03-27 16:37:29,549 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2026-03-27 16:37:29,827 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2026-03-27 16:37:29,955 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2026-03-27 16:37:30,232 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2026-03-27 16:37:30,306 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2026-03-27 16:37:30,613 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2026-03-27 16:37:30,687 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2026-03-27 16:37:30,966 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2026-03-27 16:37:31,040 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2026-03-27 16:37:31,317 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json HTTP/1.1" 404 0
+2026-03-27 16:37:31,606 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2026-03-27 16:37:31,674 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2026-03-27 16:37:32,486 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2026-03-27 16:37:32,575 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2026-03-27 16:37:32,927 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2026-03-27 16:37:33,203 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=True&expand=False HTTP/1.1" 200 None
+2026-03-27 16:37:33,629 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 None
+2026-03-27 16:37:33,952 │ DEBUG    │ urllib3.connectionpool │ https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 None
+2026-03-27 16:37:34,967 │ INFO     │ DiagnosisAgent     │ DiagnosisAgent ready. KB size: 3, Index size: 3
+2026-03-27 16:37:34,967 │ INFO     │ ExecutionAgent     │ ExecutionAgent initialized.
+2026-03-27 16:37:34,968 │ INFO     │ Orchestrator       │ Orchestrator initialized for session ae03ffbc-d013-418c-b656-d252c9eb9707
+2026-03-27 16:37:36,987 │ INFO     │ Orchestrator       │ ============================================================
+2026-03-27 16:37:36,988 │ INFO     │ Orchestrator       │   AGENTIC MONITORING SYSTEM ACTIVATED
+2026-03-27 16:37:36,989 │ INFO     │ Orchestrator       │   Session: ae03ffbc-d013-418c-b656-d252c9eb9707
+2026-03-27 16:37:36,989 │ INFO     │ Orchestrator       │   Time: 2026-03-27T16:37:36.989809
+2026-03-27 16:37:36,990 │ INFO     │ Orchestrator       │ ============================================================
+2026-03-27 16:37:36,990 │ INFO     │ SnapshotAgent      │ [Session ae03ffbc-d013-418c-b656-d252c9eb9707] SnapshotAgent starting...
+2026-03-27 16:37:37,002 │ INFO     │ SnapshotAgent      │ MutationObserver injected successfully.
+2026-03-27 16:37:37,002 │ INFO     │ SnapshotAgent      │ [Session ae03ffbc-d013-418c-b656-d252c9eb9707] SnapshotAgent active — monitoring dashboard.
+2026-03-27 16:37:37,003 │ INFO     │ Orchestrator       │ All agents active. Monitoring dashboard...
+2026-03-27 16:37:37,004 │ INFO     │ Main               │ Entering continuous monitoring mode. Press Ctrl+C to stop.
+2026-03-27 16:37:37,069 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:37:42,123 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:37:47,193 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:37:52,225 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:37:57,270 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:02,306 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:07,338 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:12,374 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:17,431 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:22,493 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:27,529 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:27,559 │ DEBUG    │ SharedMemory       │ Error logged: ERR-6733
+2026-03-27 16:38:27,559 │ INFO     │ SnapshotAgent      │ New error detected: ERR-6733 — Customer Details Not Verified
+2026-03-27 16:38:27,559 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:38:27,560 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-6733
+2026-03-27 16:38:27,560 │ INFO     │ Orchestrator       │   Message: Customer Details Not Verified
+2026-03-27 16:38:27,560 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:38:27,566 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-6733 → in_progress
+2026-03-27 16:38:27,567 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:38:27,567 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-6733 — 'Customer Details Not Verified'
+2026-03-27 16:38:27,797 │ INFO     │ DiagnosisAgent     │ RAG match: 'Customer Details not verified'
+2026-03-27 16:38:27,802 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:38:27,802 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-6733: 8 steps
+2026-03-27 16:38:27,807 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:38:27,807 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-6733: 8 steps
+2026-03-27 16:38:27,808 │ INFO     │ ExecutionAgent     │   [1/8] CLICK → #menuCustomer | Navigate to Customer Detail
+2026-03-27 16:38:28,566 │ DEBUG    │ SharedMemory       │ Appended 15 live changes.
+2026-03-27 16:38:28,879 │ INFO     │ ExecutionAgent     │   [1/8] ✓ Step completed
+2026-03-27 16:38:29,391 │ INFO     │ ExecutionAgent     │   [2/8] FILL → #verifyEmail | Enter reported email
+2026-03-27 16:38:29,878 │ INFO     │ ExecutionAgent     │   [2/8] ✓ Step completed
+2026-03-27 16:38:30,392 │ INFO     │ ExecutionAgent     │   [3/8] FILL → #verifyPass | Enter reported password
+2026-03-27 16:38:30,876 │ INFO     │ ExecutionAgent     │   [3/8] ✓ Step completed
+2026-03-27 16:38:31,393 │ INFO     │ ExecutionAgent     │   [4/8] CLICK → #verifyBtn | Verify credentials
+2026-03-27 16:38:31,748 │ DEBUG    │ SharedMemory       │ Appended 2 live changes.
+2026-03-27 16:38:31,797 │ INFO     │ ExecutionAgent     │   [4/8] ✓ Step completed
+2026-03-27 16:38:32,312 │ INFO     │ ExecutionAgent     │   [5/8] CLICK → #emailSendBtn | Send Now button
+2026-03-27 16:38:32,781 │ INFO     │ ExecutionAgent     │   [5/8] ✓ Step completed
+2026-03-27 16:38:33,283 │ INFO     │ ExecutionAgent     │   [6/8] WAIT → (none) | Wait for email to be sent
+2026-03-27 16:38:34,924 │ DEBUG    │ SharedMemory       │ Appended 1 live changes.
+2026-03-27 16:38:36,298 │ INFO     │ ExecutionAgent     │   [6/8] ✓ Step completed
+2026-03-27 16:38:36,810 │ INFO     │ ExecutionAgent     │   [7/8] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:38:37,218 │ INFO     │ ExecutionAgent     │   [7/8] ✓ Step completed
+2026-03-27 16:38:37,732 │ INFO     │ ExecutionAgent     │   [8/8] CLICK → #status-btn-ERR-6733 | Resolve error row
+2026-03-27 16:38:38,177 │ DEBUG    │ SharedMemory       │ Appended 15 live changes.
+2026-03-27 16:38:38,178 │ INFO     │ ExecutionAgent     │   [8/8] ✓ Step completed
+2026-03-27 16:38:38,690 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-6733...
+2026-03-27 16:38:41,760 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-6733 button shows resolved.
+2026-03-27 16:38:41,812 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-6733 → resolved
+2026-03-27 16:38:41,819 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-6733 → resolved
+2026-03-27 16:38:41,819 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-6733: resolved (8/8 steps)
+2026-03-27 16:38:41,820 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-6733 RESOLVED SUCCESSFULLY
+2026-03-27 16:38:41,821 │ INFO     │ Orchestrator       │   Steps: 8/8
+2026-03-27 16:38:41,821 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:38:41,821 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:38:41,822 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:38:46,861 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:51,920 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:38:56,980 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:02,010 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:07,059 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:12,090 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:17,124 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:22,183 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:27,229 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:29,551 │ DEBUG    │ SharedMemory       │ Appended 6 live changes.
+2026-03-27 16:39:32,293 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:32,314 │ DEBUG    │ SharedMemory       │ Error logged: ERR-5931
+2026-03-27 16:39:32,314 │ INFO     │ SnapshotAgent      │ New error detected: ERR-5931 — Teams Login Issue
+2026-03-27 16:39:32,314 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:39:32,315 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-5931
+2026-03-27 16:39:32,315 │ INFO     │ Orchestrator       │   Message: Teams Login Issue
+2026-03-27 16:39:32,316 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:39:32,324 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-5931 → in_progress
+2026-03-27 16:39:32,325 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:39:32,326 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-5931 — 'Teams Login Issue'
+2026-03-27 16:39:32,370 │ INFO     │ DiagnosisAgent     │ RAG match: 'Teams Login Issue'
+2026-03-27 16:39:32,371 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:39:32,372 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-5931: 6 steps
+2026-03-27 16:39:32,372 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:39:32,373 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-5931: 6 steps
+2026-03-27 16:39:32,374 │ INFO     │ ExecutionAgent     │   [1/6] CLICK → #menuTeams | Navigate to Teams
+2026-03-27 16:39:32,739 │ DEBUG    │ SharedMemory       │ Appended 11 live changes.
+2026-03-27 16:39:32,745 │ INFO     │ ExecutionAgent     │   [1/6] ✓ Step completed
+2026-03-27 16:39:33,257 │ INFO     │ ExecutionAgent     │   [2/6] CLICK → #adminSelect | Click on the dropdown
+2026-03-27 16:39:33,819 │ INFO     │ ExecutionAgent     │   [2/6] ✓ Step completed
+2026-03-27 16:39:34,332 │ INFO     │ ExecutionAgent     │   [3/6] SELECT → #adminSelect | Select the admin based on the timing
+2026-03-27 16:39:34,705 │ INFO     │ ExecutionAgent     │   [3/6] ✓ Step completed
+2026-03-27 16:39:35,221 │ INFO     │ ExecutionAgent     │   [4/6] CLICK → #submitTeamIssueBtn | Assign team
+2026-03-27 16:39:35,631 │ INFO     │ ExecutionAgent     │   [4/6] ✓ Step completed
+2026-03-27 16:39:35,955 │ DEBUG    │ SharedMemory       │ Appended 3 live changes.
+2026-03-27 16:39:36,146 │ INFO     │ ExecutionAgent     │   [5/6] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:39:36,537 │ INFO     │ ExecutionAgent     │   [5/6] ✓ Step completed
+2026-03-27 16:39:37,047 │ INFO     │ ExecutionAgent     │   [6/6] CLICK → #status-btn-ERR-5931 | Resolve error row
+2026-03-27 16:39:37,422 │ INFO     │ ExecutionAgent     │   [6/6] ✓ Step completed
+2026-03-27 16:39:37,924 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-5931...
+2026-03-27 16:39:39,079 │ DEBUG    │ SharedMemory       │ Appended 15 live changes.
+2026-03-27 16:39:41,003 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-5931 button shows resolved.
+2026-03-27 16:39:41,047 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-5931 → resolved
+2026-03-27 16:39:41,056 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-5931 → resolved
+2026-03-27 16:39:41,057 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-5931: resolved (6/6 steps)
+2026-03-27 16:39:41,057 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-5931 RESOLVED SUCCESSFULLY
+2026-03-27 16:39:41,058 │ INFO     │ Orchestrator       │   Steps: 6/6
+2026-03-27 16:39:41,058 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:39:41,059 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:39:41,059 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:39:46,084 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:51,146 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:39:56,217 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:01,248 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:06,283 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:11,310 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:16,363 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:21,429 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:26,502 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:30,591 │ DEBUG    │ SharedMemory       │ Appended 6 live changes.
+2026-03-27 16:40:31,570 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:31,611 │ DEBUG    │ SharedMemory       │ Error logged: ERR-3423
+2026-03-27 16:40:31,612 │ INFO     │ SnapshotAgent      │ New error detected: ERR-3423 — Teams Login Issue
+2026-03-27 16:40:31,613 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:40:31,615 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-3423
+2026-03-27 16:40:31,616 │ INFO     │ Orchestrator       │   Message: Teams Login Issue
+2026-03-27 16:40:31,617 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:40:31,630 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-3423 → in_progress
+2026-03-27 16:40:31,631 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:40:31,632 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-3423 — 'Teams Login Issue'
+2026-03-27 16:40:31,652 │ INFO     │ DiagnosisAgent     │ RAG match: 'Teams Login Issue'
+2026-03-27 16:40:31,653 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:40:31,654 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-3423: 6 steps
+2026-03-27 16:40:31,654 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:40:31,655 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-3423: 6 steps
+2026-03-27 16:40:31,656 │ INFO     │ ExecutionAgent     │   [1/6] CLICK → #menuTeams | Navigate to Teams
+2026-03-27 16:40:32,023 │ INFO     │ ExecutionAgent     │   [1/6] ✓ Step completed
+2026-03-27 16:40:32,536 │ INFO     │ ExecutionAgent     │   [2/6] CLICK → #adminSelect | Click on the dropdown
+2026-03-27 16:40:33,132 │ INFO     │ ExecutionAgent     │   [2/6] ✓ Step completed
+2026-03-27 16:40:33,819 │ DEBUG    │ SharedMemory       │ Appended 11 live changes.
+2026-03-27 16:40:33,819 │ INFO     │ ExecutionAgent     │   [3/6] SELECT → #adminSelect | Select the admin based on the timing
+2026-03-27 16:40:34,190 │ INFO     │ ExecutionAgent     │   [3/6] ✓ Step completed
+2026-03-27 16:40:34,692 │ INFO     │ ExecutionAgent     │   [4/6] CLICK → #submitTeamIssueBtn | Assign team
+2026-03-27 16:40:35,053 │ INFO     │ ExecutionAgent     │   [4/6] ✓ Step completed
+2026-03-27 16:40:35,568 │ INFO     │ ExecutionAgent     │   [5/6] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:40:35,958 │ INFO     │ ExecutionAgent     │   [5/6] ✓ Step completed
+2026-03-27 16:40:36,472 │ INFO     │ ExecutionAgent     │   [6/6] CLICK → #status-btn-ERR-3423 | Resolve error row
+2026-03-27 16:40:36,835 │ INFO     │ ExecutionAgent     │   [6/6] ✓ Step completed
+2026-03-27 16:40:37,001 │ DEBUG    │ SharedMemory       │ Appended 17 live changes.
+2026-03-27 16:40:37,344 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-3423...
+2026-03-27 16:40:40,174 │ DEBUG    │ SharedMemory       │ Appended 1 live changes.
+2026-03-27 16:40:40,389 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-3423 button shows resolved.
+2026-03-27 16:40:40,423 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-3423 → resolved
+2026-03-27 16:40:40,430 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-3423 → resolved
+2026-03-27 16:40:40,430 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-3423: resolved (6/6 steps)
+2026-03-27 16:40:40,431 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-3423 RESOLVED SUCCESSFULLY
+2026-03-27 16:40:40,431 │ INFO     │ Orchestrator       │   Steps: 6/6
+2026-03-27 16:40:40,431 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:40:40,432 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:40:40,432 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:40:45,492 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:50,533 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:40:55,572 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:00,608 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:05,681 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:10,734 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:15,761 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:20,795 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:25,840 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:28,551 │ DEBUG    │ SharedMemory       │ Appended 9 live changes.
+2026-03-27 16:41:30,879 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:30,900 │ DEBUG    │ SharedMemory       │ Error logged: ERR-4891
+2026-03-27 16:41:30,900 │ INFO     │ SnapshotAgent      │ New error detected: ERR-4891 — Customer Details Not Verified
+2026-03-27 16:41:30,901 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:41:30,901 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-4891
+2026-03-27 16:41:30,902 │ INFO     │ Orchestrator       │   Message: Customer Details Not Verified
+2026-03-27 16:41:30,902 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:41:30,908 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-4891 → in_progress
+2026-03-27 16:41:30,909 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:41:30,909 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-4891 — 'Customer Details Not Verified'
+2026-03-27 16:41:30,927 │ INFO     │ DiagnosisAgent     │ RAG match: 'Customer Details not verified'
+2026-03-27 16:41:30,928 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:41:30,929 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-4891: 8 steps
+2026-03-27 16:41:30,930 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:41:30,930 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-4891: 8 steps
+2026-03-27 16:41:30,931 │ INFO     │ ExecutionAgent     │   [1/8] CLICK → #menuCustomer | Navigate to Customer Detail
+2026-03-27 16:41:31,307 │ INFO     │ ExecutionAgent     │   [1/8] ✓ Step completed
+2026-03-27 16:41:31,713 │ DEBUG    │ SharedMemory       │ Appended 11 live changes.
+2026-03-27 16:41:31,820 │ INFO     │ ExecutionAgent     │   [2/8] FILL → #verifyEmail | Enter reported email
+2026-03-27 16:41:32,257 │ INFO     │ ExecutionAgent     │   [2/8] ✓ Step completed
+2026-03-27 16:41:32,771 │ INFO     │ ExecutionAgent     │   [3/8] FILL → #verifyPass | Enter reported password
+2026-03-27 16:41:33,210 │ INFO     │ ExecutionAgent     │   [3/8] ✓ Step completed
+2026-03-27 16:41:33,727 │ INFO     │ ExecutionAgent     │   [4/8] CLICK → #verifyBtn | Verify credentials
+2026-03-27 16:41:34,168 │ INFO     │ ExecutionAgent     │   [4/8] ✓ Step completed
+2026-03-27 16:41:34,682 │ INFO     │ ExecutionAgent     │   [5/8] CLICK → #emailSendBtn | Send Now button
+2026-03-27 16:41:34,884 │ DEBUG    │ SharedMemory       │ Appended 1 live changes.
+2026-03-27 16:41:35,202 │ INFO     │ ExecutionAgent     │   [5/8] ✓ Step completed
+2026-03-27 16:41:35,713 │ INFO     │ ExecutionAgent     │   [6/8] WAIT → (none) | Wait for email to be sent
+2026-03-27 16:41:37,987 │ DEBUG    │ SharedMemory       │ Appended 3 live changes.
+2026-03-27 16:41:38,722 │ INFO     │ ExecutionAgent     │   [6/8] ✓ Step completed
+2026-03-27 16:41:39,235 │ INFO     │ ExecutionAgent     │   [7/8] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:41:39,719 │ INFO     │ ExecutionAgent     │   [7/8] ✓ Step completed
+2026-03-27 16:41:40,234 │ INFO     │ ExecutionAgent     │   [8/8] CLICK → #status-btn-ERR-4891 | Resolve error row
+2026-03-27 16:41:40,610 │ INFO     │ ExecutionAgent     │   [8/8] ✓ Step completed
+2026-03-27 16:41:41,079 │ DEBUG    │ SharedMemory       │ Appended 16 live changes.
+2026-03-27 16:41:41,126 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-4891...
+2026-03-27 16:41:44,184 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-4891 button shows resolved.
+2026-03-27 16:41:44,217 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-4891 → resolved
+2026-03-27 16:41:44,225 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-4891 → resolved
+2026-03-27 16:41:44,225 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-4891: resolved (8/8 steps)
+2026-03-27 16:41:44,226 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-4891 RESOLVED SUCCESSFULLY
+2026-03-27 16:41:44,227 │ INFO     │ Orchestrator       │   Steps: 8/8
+2026-03-27 16:41:44,227 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:41:44,227 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:41:44,228 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:41:49,252 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:54,298 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:41:59,360 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:04,400 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:09,449 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:14,507 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:19,582 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:24,657 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:29,449 │ DEBUG    │ SharedMemory       │ Appended 9 live changes.
+2026-03-27 16:42:29,703 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:29,717 │ DEBUG    │ SharedMemory       │ Error logged: ERR-7049
+2026-03-27 16:42:29,718 │ INFO     │ SnapshotAgent      │ New error detected: ERR-7049 — Teams Login Issue
+2026-03-27 16:42:29,718 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:42:29,718 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-7049
+2026-03-27 16:42:29,719 │ INFO     │ Orchestrator       │   Message: Teams Login Issue
+2026-03-27 16:42:29,719 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:42:29,727 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-7049 → in_progress
+2026-03-27 16:42:29,729 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:42:29,729 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-7049 — 'Teams Login Issue'
+2026-03-27 16:42:29,759 │ INFO     │ DiagnosisAgent     │ RAG match: 'Teams Login Issue'
+2026-03-27 16:42:29,760 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:42:29,761 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-7049: 6 steps
+2026-03-27 16:42:29,762 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:42:29,762 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-7049: 6 steps
+2026-03-27 16:42:29,762 │ INFO     │ ExecutionAgent     │   [1/6] CLICK → #menuTeams | Navigate to Teams
+2026-03-27 16:42:30,137 │ INFO     │ ExecutionAgent     │   [1/6] ✓ Step completed
+2026-03-27 16:42:30,650 │ INFO     │ ExecutionAgent     │   [2/6] CLICK → #adminSelect | Click on the dropdown
+2026-03-27 16:42:31,134 │ INFO     │ ExecutionAgent     │   [2/6] ✓ Step completed
+2026-03-27 16:42:31,650 │ INFO     │ ExecutionAgent     │   [3/6] SELECT → #adminSelect | Select the admin based on the timing
+2026-03-27 16:42:32,118 │ INFO     │ ExecutionAgent     │   [3/6] ✓ Step completed
+2026-03-27 16:42:32,632 │ DEBUG    │ SharedMemory       │ Appended 11 live changes.
+2026-03-27 16:42:32,633 │ INFO     │ ExecutionAgent     │   [4/6] CLICK → #submitTeamIssueBtn | Assign team
+2026-03-27 16:42:33,006 │ INFO     │ ExecutionAgent     │   [4/6] ✓ Step completed
+2026-03-27 16:42:33,521 │ INFO     │ ExecutionAgent     │   [5/6] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:42:34,006 │ INFO     │ ExecutionAgent     │   [5/6] ✓ Step completed
+2026-03-27 16:42:34,521 │ INFO     │ ExecutionAgent     │   [6/6] CLICK → #status-btn-ERR-7049 | Resolve error row
+2026-03-27 16:42:34,958 │ INFO     │ ExecutionAgent     │   [6/6] ✓ Step completed
+2026-03-27 16:42:35,470 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-7049...
+2026-03-27 16:42:35,918 │ DEBUG    │ SharedMemory       │ Appended 20 live changes.
+2026-03-27 16:42:38,505 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-7049 button shows resolved.
+2026-03-27 16:42:38,524 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-7049 → resolved
+2026-03-27 16:42:38,530 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-7049 → resolved
+2026-03-27 16:42:38,531 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-7049: resolved (6/6 steps)
+2026-03-27 16:42:38,531 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-7049 RESOLVED SUCCESSFULLY
+2026-03-27 16:42:38,531 │ INFO     │ Orchestrator       │   Steps: 6/6
+2026-03-27 16:42:38,532 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:42:38,532 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:42:38,532 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:42:43,562 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:48,588 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:53,628 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:42:58,699 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:03,747 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:08,781 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:13,841 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:18,893 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:23,931 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:28,989 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:29,015 │ DEBUG    │ SharedMemory       │ Error logged: ERR-3041
+2026-03-27 16:43:29,016 │ INFO     │ SnapshotAgent      │ New error detected: ERR-3041 — Customer Details Not Verified
+2026-03-27 16:43:29,017 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:43:29,017 │ INFO     │ Orchestrator       │ ERROR PIPELINE STARTED: ERR-3041
+2026-03-27 16:43:29,018 │ INFO     │ Orchestrator       │   Message: Customer Details Not Verified
+2026-03-27 16:43:29,018 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:43:29,027 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-3041 → in_progress
+2026-03-27 16:43:29,029 │ INFO     │ Orchestrator       │ [PHASE 2] DiagnosisAgent analyzing error...
+2026-03-27 16:43:29,029 │ INFO     │ DiagnosisAgent     │ Diagnosing error: ERR-3041 — 'Customer Details Not Verified'
+2026-03-27 16:43:29,052 │ INFO     │ DiagnosisAgent     │ RAG match: 'Customer Details not verified'
+2026-03-27 16:43:29,053 │ INFO     │ DiagnosisAgent     │ ✓ Using cached execution plan (skipping LLM call)
+2026-03-27 16:43:29,053 │ INFO     │ DiagnosisAgent     │ Execution plan created for ERR-3041: 8 steps
+2026-03-27 16:43:29,054 │ INFO     │ Orchestrator       │ [PHASE 3] ExecutionAgent executing resolution...
+2026-03-27 16:43:29,054 │ INFO     │ ExecutionAgent     │ Executing plan for error ERR-3041: 8 steps
+2026-03-27 16:43:29,054 │ INFO     │ ExecutionAgent     │   [1/8] CLICK → #menuCustomer | Navigate to Customer Detail
+2026-03-27 16:43:29,405 │ INFO     │ ExecutionAgent     │   [1/8] ✓ Step completed
+2026-03-27 16:43:29,921 │ INFO     │ ExecutionAgent     │   [2/8] FILL → #verifyEmail | Enter reported email
+2026-03-27 16:43:30,357 │ DEBUG    │ SharedMemory       │ Appended 21 live changes.
+2026-03-27 16:43:30,372 │ INFO     │ ExecutionAgent     │   [2/8] ✓ Step completed
+2026-03-27 16:43:30,888 │ INFO     │ ExecutionAgent     │   [3/8] FILL → #verifyPass | Enter reported password
+2026-03-27 16:43:31,296 │ INFO     │ ExecutionAgent     │   [3/8] ✓ Step completed
+2026-03-27 16:43:31,806 │ INFO     │ ExecutionAgent     │   [4/8] CLICK → #verifyBtn | Verify credentials
+2026-03-27 16:43:32,198 │ INFO     │ ExecutionAgent     │   [4/8] ✓ Step completed
+2026-03-27 16:43:32,714 │ INFO     │ ExecutionAgent     │   [5/8] CLICK → #emailSendBtn | Send Now button
+2026-03-27 16:43:33,090 │ INFO     │ ExecutionAgent     │   [5/8] ✓ Step completed
+2026-03-27 16:43:33,520 │ DEBUG    │ SharedMemory       │ Appended 3 live changes.
+2026-03-27 16:43:33,607 │ INFO     │ ExecutionAgent     │   [6/8] WAIT → (none) | Wait for email to be sent
+2026-03-27 16:43:36,716 │ DEBUG    │ SharedMemory       │ Appended 2 live changes.
+2026-03-27 16:43:36,717 │ INFO     │ ExecutionAgent     │   [6/8] ✓ Step completed
+2026-03-27 16:43:37,229 │ INFO     │ ExecutionAgent     │   [7/8] CLICK → #menuDashboard | Return to Dashboard
+2026-03-27 16:43:37,698 │ INFO     │ ExecutionAgent     │   [7/8] ✓ Step completed
+2026-03-27 16:43:38,211 │ INFO     │ ExecutionAgent     │   [8/8] CLICK → #status-btn-ERR-3041 | Resolve error row
+2026-03-27 16:43:38,601 │ INFO     │ ExecutionAgent     │   [8/8] ✓ Step completed
+2026-03-27 16:43:39,117 │ INFO     │ ExecutionAgent     │ Verifying resolution for ERR-3041...
+2026-03-27 16:43:39,864 │ DEBUG    │ SharedMemory       │ Appended 18 live changes.
+2026-03-27 16:43:42,147 │ INFO     │ ExecutionAgent     │ ✓ Error ERR-3041 button shows resolved.
+2026-03-27 16:43:42,178 │ DEBUG    │ SharedMemory       │ Execution result logged: ERR-3041 → resolved
+2026-03-27 16:43:42,189 │ DEBUG    │ SharedMemory       │ Error status updated: ERR-3041 → resolved
+2026-03-27 16:43:42,189 │ INFO     │ ExecutionAgent     │ Execution complete for ERR-3041: resolved (8/8 steps)
+2026-03-27 16:43:42,190 │ INFO     │ Orchestrator       │ ✅ ERROR ERR-3041 RESOLVED SUCCESSFULLY
+2026-03-27 16:43:42,191 │ INFO     │ Orchestrator       │   Steps: 8/8
+2026-03-27 16:43:42,191 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:43:42,192 │ INFO     │ Orchestrator       │ Returning to monitoring mode...
+2026-03-27 16:43:42,192 │ INFO     │ Orchestrator       │ ──────────────────────────────────────────────────
+2026-03-27 16:43:47,224 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:52,302 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:43:57,359 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:44:02,410 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:44:07,492 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:44:12,541 │ DEBUG    │ SharedMemory       │ Snapshot saved.
+2026-03-27 16:44:12,772 │ INFO     │ Main               │ Initiating graceful shutdown...
+2026-03-27 16:44:12,773 │ INFO     │ Orchestrator       │ Shutting down orchestrator...
+2026-03-27 16:44:12,775 │ INFO     │ SnapshotAgent      │ [Session ae03ffbc-d013-418c-b656-d252c9eb9707] SnapshotAgent stopped.
+2026-03-27 16:44:12,777 │ INFO     │ Orchestrator       │ All agents stopped. Orchestrator shutdown complete.
+2026-03-27 16:44:12,836 │ INFO     │ SessionManager     │ Session deactivated: ae03ffbc-d013-418c-b656-d252c9eb9707
+2026-03-27 16:44:12,888 │ INFO     │ Main               │ ============================================================
+2026-03-27 16:44:12,896 │ INFO     │ Main               │   MONITORING SYSTEM SHUT DOWN
+2026-03-27 16:44:12,899 │ INFO     │ Main               │   Time: 2026-03-27T16:44:12.899866
+2026-03-27 16:44:12,905 │ INFO     │ Main               │ ============================================================

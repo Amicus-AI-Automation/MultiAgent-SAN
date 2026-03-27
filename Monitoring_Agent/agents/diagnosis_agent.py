@@ -60,7 +60,7 @@ class DiagnosisAgent:
         
         logger.info(f"DiagnosisAgent ready. KB size: {len(self._kb)}, Index size: {self._index.ntotal}")
 
-    # ─── Public API ───────────────────────────────────────────────────────
+    #Public API
 
     async def diagnose(self, error: ErrorEntry, snapshot: SiteSnapshot | None = None) -> ExecutionPlan:
         """
@@ -115,9 +115,6 @@ class DiagnosisAgent:
         for s in cached_steps_data:
             selector = s["selector"].format(error_id=error.error_id) if "{error_id}" in s["selector"] else s["selector"]
             value = s.get("value", "")
-            if "{reported_email}" in str(value):
-                value = value.format(reported_email=error.extra_data.get("alert_text", "oparch19@gmail.com"))
-            
             grounded_steps.append(ExecutionStep(
                 action=ActionType(s["action"]),
                 selector=selector,
@@ -126,7 +123,7 @@ class DiagnosisAgent:
             ))
         return grounded_steps
 
-    # ─── RAG Retrieval ────────────────────────────────────────────────────
+    # RAG Retrieval
 
     def retrieve_fix(self, error_message: str) -> dict:
         """Semantic search against the FAISS index to find the best fix."""
@@ -142,8 +139,7 @@ class DiagnosisAgent:
         logger.warning(f"No match found for: {error_message}")
         return {"issue_type": "unknown", "resolution_steps": ""}
 
-    # ─── LLM Grounding ────────────────────────────────────────────────────
-
+    # LLM Grounding
     async def _generate_grounded_steps(
         self, 
         nl_steps: str, 
@@ -244,7 +240,7 @@ Example Output:
             logger.error(f"LLM grounding failed: {e}", exc_info=True)
             return []
 
-    # ─── Private Helpers ──────────────────────────────────────────────────
+    # Private Helpers
 
     def _load_knowledge_base(self) -> list[dict]:
         """Load the JSON knowledge base."""

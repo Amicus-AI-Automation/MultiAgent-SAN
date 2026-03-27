@@ -13,7 +13,7 @@ from typing import Any, Optional
 from pydantic import BaseModel, Field
 
 
-# ─── Enums ────────────────────────────────────────────────────────────────────
+# Enums 
 
 class ErrorStatus(str, Enum):
     UNRESOLVED = "unresolved"
@@ -36,7 +36,7 @@ class ResolutionStatus(str, Enum):
     FAILED = "failed"
 
 
-# ─── Session ──────────────────────────────────────────────────────────────────
+# Session 
 
 class SessionInfo(BaseModel):
     """Represents a bound user session."""
@@ -46,7 +46,7 @@ class SessionInfo(BaseModel):
     is_active: bool = True
 
 
-# ─── Snapshot Models ──────────────────────────────────────────────────────────
+# Snapshot Models 
 
 class SnapshotElement(BaseModel):
     """A single DOM element captured in a snapshot."""
@@ -67,7 +67,7 @@ class SiteSnapshot(BaseModel):
     elements: list[SnapshotElement] = []
 
 
-# ─── Live Changes ────────────────────────────────────────────────────────────
+# Live Changes 
 
 class LiveChange(BaseModel):
     """A single DOM mutation captured by MutationObserver."""
@@ -80,7 +80,7 @@ class LiveChange(BaseModel):
     details: str = ""
 
 
-# ─── Error Models ─────────────────────────────────────────────────────────────
+# Error Models 
 
 class ErrorEntry(BaseModel):
     """An error detected on the dashboard."""
@@ -94,7 +94,7 @@ class ErrorEntry(BaseModel):
     extra_data: dict[str, Any] = {}  # e.g. reported email/password for customer errors
 
 
-# ─── Execution Models ────────────────────────────────────────────────────────
+# Execution Models 
 
 class ExecutionStep(BaseModel):
     """A single UI action to perform."""

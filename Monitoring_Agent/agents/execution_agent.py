@@ -44,7 +44,7 @@ class ExecutionAgent:
     def __init__(self):
         logger.info("ExecutionAgent initialized.")
 
-    # ─── Public API ───────────────────────────────────────────────────────
+    # Public API
 
     async def execute(self, plan: ExecutionPlan, page: Page) -> ExecutionResult:
         """
@@ -106,8 +106,7 @@ class ExecutionAgent:
 
         return result
 
-    # ─── Step Execution ───────────────────────────────────────────────────
-
+    # Step Execution
     async def _execute_step_with_retry(self, step: ExecutionStep, page: Page) -> bool:
         """Execute a single step with retry logic."""
         for attempt in range(1, ACTION_RETRY_COUNT + 1):
@@ -205,7 +204,7 @@ class ExecutionAgent:
 
         await page.wait_for_timeout(300)
 
-    # ─── Resolution Verification ──────────────────────────────────────────
+    # Resolution Verification 
 
     async def verify_resolution(self, page: Page, error_id: str) -> bool:
         """

@@ -184,5 +184,17 @@
     "session_id": "d26839bb-e8b5-412a-8f08-aaec1cf2a4ac",
     "login_timestamp": "2026-03-26T12:37:33.378706",
     "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "2f9242d8-2f60-4091-b281-caf215120eb8",
+    "login_timestamp": "2026-03-26T12:52:05.581444",
+    "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "ae03ffbc-d013-418c-b656-d252c9eb9707",
+    "login_timestamp": "2026-03-27T16:37:27.333890",
+    "is_active": false
   }
 ]

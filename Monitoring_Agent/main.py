@@ -36,7 +36,7 @@ from core.config import (
 from core.session_manager import SessionManager
 from orchestrator import AgentOrchestrator
 
-# ─── Logging Setup ────────────────────────────────────────────────────────────
+# Logging Setup 
 
 LOG_FORMAT = (
     "%(asctime)s │ %(levelname)-8s │ %(name)-18s │ %(message)s"
@@ -66,7 +66,7 @@ def setup_logging() -> None:
 
 logger = logging.getLogger("Main")
 
-# ─── Login ────────────────────────────────────────────────────────────────────
+# Login and Session Detection
 
 async def perform_login(page: Page) -> bool:
     """
@@ -127,7 +127,7 @@ async def detect_logout(page: Page) -> bool:
         return True
 
 
-# ─── Main Loop ────────────────────────────────────────────────────────────────
+# Main Loop 
 
 async def main() -> None:
     """Main entry point for the monitoring system."""
@@ -159,7 +159,7 @@ async def main() -> None:
         )
         page = await context.new_page()
 
-        # ── Login Phase ───────────────────────────────────────────────
+        # Login Phase 
         login_success = await perform_login(page)
 
         if not login_success:
@@ -179,7 +179,7 @@ async def main() -> None:
         session = session_manager.create_session(user_id)
         logger.info(f"Monitoring session created: {session.session_id}")
 
-        # ── Agent Activation ──────────────────────────────────────────
+        # Agent Activation
         orchestrator = AgentOrchestrator(session.session_id)
 
         # Wait for dashboard to fully load
@@ -189,7 +189,7 @@ async def main() -> None:
         # Start the orchestrator
         await orchestrator.start(page)
 
-        # ── Continuous Monitoring ─────────────────────────────────────
+        # Continuous Monitoring
         logger.info("Entering continuous monitoring mode. Press Ctrl+C to stop.")
 
         shutdown_event = asyncio.Event()
@@ -239,7 +239,7 @@ async def main() -> None:
                     break
 
         finally:
-            # ── Shutdown ──────────────────────────────────────────────
+            # Shutdown
             logger.info("Initiating graceful shutdown...")
 
             if orchestrator:
@@ -259,7 +259,7 @@ async def main() -> None:
             logger.info("=" * 60)
 
 
-# ─── Entry Point ──────────────────────────────────────────────────────────────
+# Entry Point
 
 if __name__ == "__main__":
     try:

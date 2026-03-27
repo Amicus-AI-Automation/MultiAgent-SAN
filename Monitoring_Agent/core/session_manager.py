@@ -22,7 +22,7 @@ class SessionManager:
         self._sessions: dict[str, SessionInfo] = {}
         self._load_registry()
 
-    # ─── Public API ───────────────────────────────────────────────────────
+    # Public API
 
     def create_session(self, user_id: str) -> SessionInfo:
         """Create and register a new monitoring session."""
@@ -59,7 +59,7 @@ class SessionManager:
         """Return all currently active sessions."""
         return [s for s in self._sessions.values() if s.is_active]
 
-    # ─── Persistence ──────────────────────────────────────────────────────
+    # Persistence
 
     def _load_registry(self) -> None:
         """Load session registry from disk."""

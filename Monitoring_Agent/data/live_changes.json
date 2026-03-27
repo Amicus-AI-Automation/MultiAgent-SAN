@@ -1,2048 +1,5 @@
 [
   {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:51.158Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:35:52.008Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:35:52.008Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:35:52.691Z",
-    "mutation_type": "childList",
-    "target_selector": "#submitTeamIssueBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:44.891Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:44.891Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:44.891Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:44.891Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:44.891Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:46.483Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:48.898Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:49.170Z",
-    "mutation_type": "childList",
-    "target_selector": "#assignmentText",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:49.170Z",
-    "mutation_type": "attributes",
-    "target_selector": "#assignmentMessage",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:49.170Z",
-    "mutation_type": "childList",
-    "target_selector": "#submitTeamIssueBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.034Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.968Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 2,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.968Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:50.968Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:36:51.169Z",
-    "mutation_type": "childList",
-    "target_selector": "#submitTeamIssueBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 2,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:44.895Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:45.410Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:46.294Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 0,
-    "removed_nodes": 3,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:46.294Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:47.177Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 0,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:47.177Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:47.177Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:48.061Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 0,
-    "removed_nodes": 2,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:48.061Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:48.061Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:48.061Z",
-    "mutation_type": "childList",
-    "target_selector": "#cartDisplayList",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:48.896Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:49.791Z",
-    "mutation_type": "attributes",
-    "target_selector": "#emailModal",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:50.642Z",
-    "mutation_type": "childList",
-    "target_selector": "#emailSendBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.127Z",
-    "mutation_type": "childList",
-    "target_selector": "#emailSendBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.127Z",
-    "mutation_type": "attributes",
-    "target_selector": "#emailModal",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:53.505Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:37:54.393Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 3,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:54.393Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:54.393Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:37:54.393Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 3,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:44.898Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.833Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.834Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.834Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.834Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:48.897Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:51.519Z",
-    "mutation_type": "childList",
-    "target_selector": "#assignmentText",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:51.519Z",
-    "mutation_type": "attributes",
-    "target_selector": "#assignmentMessage",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:51.519Z",
-    "mutation_type": "childList",
-    "target_selector": "#submitTeamIssueBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:52.401Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.285Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 4,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.285Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.285Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.285Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.285Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:38:53.900Z",
-    "mutation_type": "childList",
-    "target_selector": "#submitTeamIssueBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 4,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:44.906Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:47.745Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T12:39:48.905Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:15.879Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:15.880Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:15.880Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:15.880Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:15.880Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:18.630Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:19.861Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:21.428Z",
-    "mutation_type": "attributes",
-    "target_selector": "#emailModal",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:22.366Z",
-    "mutation_type": "childList",
-    "target_selector": "#emailSendBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:24.597Z",
-    "mutation_type": "childList",
-    "target_selector": "#emailSendBtn",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:24.597Z",
-    "mutation_type": "attributes",
-    "target_selector": "#emailModal",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:26.858Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-17T13:56:27.775Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:27.775Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-17T13:56:27.775Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:02.297Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:02.298Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:43:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:43:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.129Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:43:06.243Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:44:02.298Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:44:06.305Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#simPopupMessage",
-    "added_nodes": 1,
-    "removed_nodes": 1,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 2,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:02.309Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:06.323Z",
-    "mutation_type": "attributes",
-    "target_selector": "#simPopupContainer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#sectionDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCart",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuTeams",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuCustomer",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:15.995Z",
-    "mutation_type": "attributes",
-    "target_selector": "#menuDashboard",
-    "added_nodes": 0,
-    "removed_nodes": 0,
-    "attribute_name": "class",
-    "details": ""
-  },
-  {
-    "timestamp": "2026-03-23T07:45:16.858Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 0,
-    "removed_nodes": 3,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:16.858Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:16.858Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:16.858Z",
-    "mutation_type": "childList",
-    "target_selector": "#errorTableBody",
-    "added_nodes": 1,
-    "removed_nodes": 0,
-    "attribute_name": null,
-    "details": "error_related"
-  },
-  {
-    "timestamp": "2026-03-23T07:45:16.858Z",
-    "mutation_type": "childList",
-    "target_selector": "#custAlertMsg",
-    "added_nodes": 5,
-    "removed_nodes": 5,
-    "attribute_name": null,
-    "details": ""
-  },
-  {
     "timestamp": "2026-03-23T07:45:26.009Z",
     "mutation_type": "attributes",
     "target_selector": "#sectionDashboard",
@@ -4496,6 +2453,2049 @@
     "target_selector": "#submitTeamIssueBtn",
     "added_nodes": 1,
     "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:27.346Z",
+    "mutation_type": "childList",
+    "target_selector": "#simPopupMessage",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:27.348Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:08:27.348Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:08:27.348Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:27.348Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:28.356Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:31.298Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:08:31.466Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:32.433Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:35.244Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:35.244Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:36.897Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:08:37.777Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:08:37.777Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:08:37.777Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "childList",
+    "target_selector": "#simPopupMessage",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:27.361Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:31.372Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:32.422Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:35.280Z",
+    "mutation_type": "childList",
+    "target_selector": "#assignmentText",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:35.280Z",
+    "mutation_type": "attributes",
+    "target_selector": "#assignmentMessage",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:35.280Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:36.221Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:37.093Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 2,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:37.093Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:37.093Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:09:37.093Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:09:37.489Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.378Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.379Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 2,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.379Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.379Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.379Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:27.379Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.383Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:31.712Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:34.730Z",
+    "mutation_type": "attributes",
+    "target_selector": "#assignmentMessage",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:34.730Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:35.632Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:36.517Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 3,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:36.517Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:36.517Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:36.517Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:10:36.517Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:10:37.010Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#simPopupMessage",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 3,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:27.385Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:30.988Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:31.384Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:33.835Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:34.742Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:37.062Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:37.062Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:39.376Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 4,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:11:40.292Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#simPopupMessage",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 4,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:27.389Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:29.813Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:31.400Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:32.681Z",
+    "mutation_type": "attributes",
+    "target_selector": "#assignmentMessage",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:32.681Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.667Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.667Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.667Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:33.668Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:12:34.633Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:12:35.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#submitTeamIssueBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#simPopupMessage",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:27.403Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:29.089Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:31.418Z",
+    "mutation_type": "attributes",
+    "target_selector": "#simPopupContainer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:31.882Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:32.777Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:35.314Z",
+    "mutation_type": "childList",
+    "target_selector": "#emailSendBtn",
+    "added_nodes": 1,
+    "removed_nodes": 1,
+    "attribute_name": null,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:35.314Z",
+    "mutation_type": "attributes",
+    "target_selector": "#emailModal",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#sectionDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCart",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuTeams",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuCustomer",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:37.373Z",
+    "mutation_type": "attributes",
+    "target_selector": "#menuDashboard",
+    "added_nodes": 0,
+    "removed_nodes": 0,
+    "attribute_name": "class",
+    "details": ""
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 0,
+    "removed_nodes": 6,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#errorTableBody",
+    "added_nodes": 1,
+    "removed_nodes": 0,
+    "attribute_name": null,
+    "details": "error_related"
+  },
+  {
+    "timestamp": "2026-03-27T11:13:38.275Z",
+    "mutation_type": "childList",
+    "target_selector": "#custAlertMsg",
+    "added_nodes": 5,
+    "removed_nodes": 5,
     "attribute_name": null,
     "details": ""
   }

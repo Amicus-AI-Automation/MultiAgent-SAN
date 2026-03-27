@@ -55,8 +55,7 @@ class AgentOrchestrator:
 
         logger.info(f"Orchestrator initialized for session {session_id}")
 
-    # ─── Public API ───────────────────────────────────────────────────────
-
+    # Public API 
     async def start(self, page: Page) -> None:
         """
         Start the orchestrator and all agents.
@@ -83,7 +82,7 @@ class AgentOrchestrator:
         await self.snapshot_agent.stop()
         logger.info("All agents stopped. Orchestrator shutdown complete.")
 
-    # ─── Error Pipeline ───────────────────────────────────────────────────
+    # Error Pipeline
 
     async def _on_error_detected(self, error: ErrorEntry) -> None:
         """
@@ -135,12 +134,12 @@ class AgentOrchestrator:
                 # Step 4: Log and report
                 if result.resolution_status == ResolutionStatus.RESOLVED:
                     logger.info(
-                        f"✅ ERROR {error.error_id} RESOLVED SUCCESSFULLY"
+                        f"ERROR {error.error_id} RESOLVED SUCCESSFULLY"
                     )
                     logger.info(f"  Steps: {result.steps_completed}/{result.steps_total}")
                 else:
                     logger.warning(
-                        f"⚠️ ERROR {error.error_id} RESOLUTION FAILED"
+                        f"ERROR {error.error_id} RESOLUTION FAILED"
                     )
                     logger.warning(f"  Details: {result.details}")
 
@@ -158,7 +157,7 @@ class AgentOrchestrator:
             finally:
                 self._active_errors.discard(error.error_id)
 
-    # ─── Browser Recovery ─────────────────────────────────────────────────
+    # Browser Recovery
 
     async def recover_browser(
         self,
