@@ -195,38 +195,6 @@ class SnapshotAgent:
             self._mutation_task.cancel()
         logger.info(f"[Session {self.session_id}] SnapshotAgent stopped.")
 
-    # Core Loops
-
-    async def _monitoring_loop(self, page: Page) -> None:
-        """Main monitoring loop: capture snapshot → detect errors → trigger."""
-        while self._running:
-            try:
-                # 1. Capture DOM snapshot
-                snapshot = await self.capture_snapshot(page)
-                write_snapshot(snapshot)
-
-                # 2. Detect errors from the error table
-                errors = await self.detect_errors(page)
-
-                # 3. Process new unresolved errors
-                for error in errors:
-                    if error.error_id not in self._known_errors and error.status == ErrorStatus.UNRESOLVED:
-                        self._known_errors.add(error.error_id)
-                        append_error_log(error)
-                        logger.info(f"New error detected: {error.error_id} — {error.error_message}")
-
-                        # Trigger diagnosis
-                        if self._on_error_callback:
-                            await self._on_error_callback(error)
-
-                await asyncio.sleep(MONITOR_POLL_INTERVAL_SEC)
-
-            except asyncio.CancelledError:
-                break
-            except Exception as e:
-                logger.error(f"Monitoring loop error: {e}", exc_info=True)
-                await asyncio.sleep(MONITOR_POLL_INTERVAL_SEC)
-
     async def _mutation_flush_loop(self, page: Page) -> None:
         """Periodically flush MutationObserver data to disk."""
         while self._running:
@@ -313,6 +281,39 @@ class SnapshotAgent:
             logger.error(f"Error detection failed: {e}")
 
         return errors
+    
+    # Core Loops
+
+    async def _monitoring_loop(self, page: Page) -> None:
+        """Main monitoring loop: capture snapshot → detect errors → trigger."""
+        while self._running:
+            try:
+                # 1. Capture DOM snapshot
+                snapshot = await self.capture_snapshot(page)
+                write_snapshot(snapshot)
+
+                # 2. Detect errors from the error table
+                errors = await self.detect_errors(page)
+
+                # 3. Process new unresolved errors
+                for error in errors:
+                    if error.error_id not in self._known_errors and error.status == ErrorStatus.UNRESOLVED:
+                        self._known_errors.add(error.error_id)
+                        append_error_log(error)
+                        logger.info(f"New error detected: {error.error_id} — {error.error_message}")
+
+                        # Trigger diagnosis
+                        if self._on_error_callback:
+                            await self._on_error_callback(error)
+
+                await asyncio.sleep(MONITOR_POLL_INTERVAL_SEC)
+
+            except asyncio.CancelledError:
+                break
+            except Exception as e:
+                logger.error(f"Monitoring loop error: {e}", exc_info=True)
+                await asyncio.sleep(MONITOR_POLL_INTERVAL_SEC)
+
 
     def mark_error_known(self, error_id: str) -> None:
         """Mark an error as already processed (after resolution attempt)."""

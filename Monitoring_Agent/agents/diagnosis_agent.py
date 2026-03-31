@@ -47,7 +47,7 @@ class DiagnosisAgent:
     """RAG-powered error diagnosis and LLM-driven execution plan generation."""
 
     def __init__(self):
-        logger.info("Initializing DiagnosisAgent — loading RAG & Gemini components...")
+        logger.info("Initializing DiagnosisAgent — loading RAG components...")
         self._model = SentenceTransformer(RAG_MODEL_NAME, token=False)
         self._kb = self._load_knowledge_base()
         self._index = self._load_vector_store()
@@ -81,14 +81,14 @@ class DiagnosisAgent:
             logger.info("✓ Using cached execution plan (skipping LLM call)")
             grounded_steps = self._process_cached_steps(cached_steps_data, error)
         else:
-            logger.info("Calling Gemini for step grounding...")
+            logger.info("Calling LLM for step grounding...")
             grounded_steps = await self._generate_grounded_steps(
                 raw_resolution_steps, snapshot, error
             )
             
-            # FALLBACK: If Gemini fails, try to use the cache as a safety net
+            # FALLBACK: If LLM call fails, try to use the cache as a safety net
             if not grounded_steps and cached_steps_data:
-                logger.warning("Gemini grounding failed. Falling back to pre-seeded cache.")
+                logger.warning("LLM grounding failed. Falling back to pre-seeded cache.")
                 grounded_steps = self._process_cached_steps(cached_steps_data, error)
             
             # Save to cache if successful and not already there
@@ -147,7 +147,7 @@ class DiagnosisAgent:
         error: ErrorEntry
     ) -> list[ExecutionStep]:
         """
-        Calls Gemini to convert NL instructions into structured JSON steps 
+        Calls LLM to convert NL instructions into structured JSON steps 
         strictly using element IDs from the DOM snapshot.
         """
         if not snapshot or not snapshot.elements:
@@ -170,35 +170,35 @@ class DiagnosisAgent:
         snapshot_json = json.dumps(element_summary, indent=2)
 
         prompt = f"""
-You are an expert Automation Agent. Your task is to convert high-level resolution steps into a structured JSON execution plan strictly using element IDs.
+            You are an expert Automation Agent. Your task is to convert high-level resolution steps into a structured JSON execution plan strictly using element IDs.
 
-### Context:
-Error Message: {error.error_message}
-Reported Extra Data (context): {json.dumps(error.extra_data)}
+            ### Context:
+            Error Message: {error.error_message}
+            Reported Extra Data (context): {json.dumps(error.extra_data)}
 
-### Current DOM Snapshot (JSON):
-{snapshot_json}
+            ### Current DOM Snapshot (JSON):
+            {snapshot_json}
 
-### Desired Resolution Steps (Natural Language):
-{nl_steps}
+            ### Desired Resolution Steps (Natural Language):
+            {nl_steps}
 
-### Instructions:
-1. Map each natural language step to concrete UI actions.
-2. The 'selector' in your JSON MUST be the '#' followed by the 'id' of the element (e.g., "#email-input"). 
-3. If an element has no ID or the ID seems dynamic/temporary, use its stable 'selector' path provided in the snapshot, but ALWAYS prioritize the 'id' field if it exists.
-4. Supported Action Types: "click", "fill", "select", "wait", "navigate", "refresh".
-5. Use placeholders like "{{error_id}}" in selectors if the ID contains the error ID.
-6. Return a JSON array of objects with keys: "action", "selector", "value", "description".
+            ### Instructions:
+            1. Map each natural language step to concrete UI actions.
+            2. The 'selector' in your JSON MUST be the '#' followed by the 'id' of the element (e.g., "#email-input"). 
+            3. If an element has no ID or the ID seems dynamic/temporary, use its stable 'selector' path provided in the snapshot, but ALWAYS prioritize the 'id' field if it exists.
+            4. Supported Action Types: "click", "fill", "select", "wait", "navigate", "refresh".
+            5. Use placeholders like "{{error_id}}" in selectors if the ID contains the error ID.
+            6. Return a JSON array of objects with keys: "action", "selector", "value", "description".
 
-Example Output:
-[
-  {{ "action": "click", "selector": "#sidebar-link-cart", "value": "", "description": "Open cart" }},
-  {{ "action": "fill", "selector": "#email-field", "value": "user@example.com", "description": "Enter email" }}
-]
-"""
+            Example Output:
+            [
+            {{ "action": "click", "selector": "#sidebar-link-cart", "value": "", "description": "Open cart" }},
+            {{ "action": "fill", "selector": "#email-field", "value": "user@example.com", "description": "Enter email" }}
+            ]
+            """
 
         try:
-            logger.info("Calling Groq for step grounding...")
+            logger.info("Calling LLM for step grounding...")
             response = await asyncio.to_thread(
                 self._client.chat.completions.create,
                 model=self._model_name,

@@ -29,7 +29,6 @@ from playwright.async_api import async_playwright, Page, Browser
 from core.config import (
     LOGIN_URL,
     LOGIN_EMAIL,
-    LOGIN_PASSWORD,
     BROWSER_HEADLESS,
     DATA_DIR,
 )
@@ -45,7 +44,17 @@ LOG_FILE = DATA_DIR / "agent_system.log"
 
 
 def setup_logging() -> None:
-    """Configure logging to both console and file."""
+    """
+    Configures the logging system for the application.
+
+    Sets up a dual-handler logging architecture:
+    1. Console Handler: Outputs standard execution flow (INFO and above) to stdout.
+    2. File Handler: Persists detailed debug logs (DEBUG and above) to the configured
+       DATA_DIR/agent_system.log file for post-mortem analysis.
+
+    Returns:
+        None
+    """
     DATA_DIR.mkdir(exist_ok=True)
 
     root_logger = logging.getLogger()
@@ -70,8 +79,19 @@ logger = logging.getLogger("Main")
 
 async def perform_login(page: Page) -> bool:
     """
-    Pause and let the user log in manually.
-    Automatically resumes once dashboard.html is reached.
+    Manages the authentication workflow by pausing automated execution to allow
+    manual user login.
+
+    Navigates to the designated login URL and waits for the user to authenticate
+    successfully. The system detects a successful login by monitoring the URL
+    for a transition to the dashboard page.
+
+    Args:
+        page (Page): The Playwright Page instance used for browser interaction.
+
+    Returns:
+        bool: True if the user successfully reaches the dashboard within the
+              timeout period; False otherwise.
     """
     logger.info(f"Navigating to login page: {LOGIN_URL}")
     await page.goto(LOGIN_URL, wait_until="networkidle")
@@ -94,8 +114,18 @@ async def perform_login(page: Page) -> bool:
 
 async def detect_session(page: Page) -> dict | None:
     """
-    Verify session is active after login.
-    Reads session data from localStorage.
+    Verifies the presence of an active authenticated session post-login.
+
+    Executes JavaScript within the context of the page to extract a serialized
+    session object from the browser's localStorage. This ensures the application
+    has successfully persisted the user's session state.
+
+    Args:
+        page (Page): The Playwright Page instance pointing to the dashboard.
+
+    Returns:
+        dict | None: The parsed session data dictionary if found, or a fallback
+                     dictionary if processing fails. Returns None if not on the dashboard.
     """
     try:
         if "dashboard.html" not in page.url:
@@ -113,13 +143,26 @@ async def detect_session(page: Page) -> dict | None:
         else:
             logger.warning("No session found in localStorage.")
             return {"user_email": "Unknown User", "session_id": "manual_session"}
+    
     except Exception as e:
         logger.error(f"Failed to read session: {e}")
         return None
 
 
 async def detect_logout(page: Page) -> bool:
-    """Check if the user has been logged out (navigated away from dashboard)."""
+    """
+    Monitors the current browser state to detect involuntary or manual logouts.
+
+    Determines if the active session has ended by checking if the user has been
+    navigated away from the secure dashboard area.
+
+    Args:
+        page (Page): The current Playwright Page instance.
+
+    Returns:
+        bool: True if the user is no longer on the dashboard (logged out);
+              False if the user is still on the dashboard.
+    """
     try:
         current_url = page.url
         return "dashboard" not in current_url.lower()
@@ -130,7 +173,21 @@ async def detect_logout(page: Page) -> bool:
 # Main Loop 
 
 async def main() -> None:
-    """Main entry point for the monitoring system."""
+    """
+    The core execution loop for the Agentic Autonomous Website Monitoring System.
+
+    Orchestrates the lifecycle of the monitoring agent:
+    1. Initializes logging and session management.
+    2. Launches a headless/headed Chromium browser context.
+    3. Manages the manual authentication and session detection phase.
+    4. Instantiates and starts the `AgentOrchestrator` to begin monitoring.
+    5. Enters a continuous monitoring loop, checking for health and session state.
+    6. Handles graceful shutdown upon process termination signals (e.g., SIGINT/SIGTERM)
+       or loss of session.
+
+    Returns:
+        None
+    """
     setup_logging()
 
     logger.info("=" * 60)
@@ -149,6 +206,7 @@ async def main() -> None:
             args=["--disable-blink-features=AutomationControlled"],
         )
 
+        # Create isolated browser context
         context = await browser.new_context(
             viewport={"width": 1400, "height": 900},
             user_agent=(

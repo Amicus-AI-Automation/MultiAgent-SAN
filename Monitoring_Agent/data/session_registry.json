@@ -196,5 +196,29 @@
     "session_id": "ae03ffbc-d013-418c-b656-d252c9eb9707",
     "login_timestamp": "2026-03-27T16:37:27.333890",
     "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "918cc08a-a805-4f69-bedd-b565f17fa87f",
+    "login_timestamp": "2026-03-30T18:56:34.926882",
+    "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "389d6d99-ba4f-47d3-aa1c-ebeeeea2c634",
+    "login_timestamp": "2026-03-31T13:35:51.531385",
+    "is_active": false
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "c702fd53-19b8-45be-8bd8-f58075257f61",
+    "login_timestamp": "2026-03-31T16:04:59.915247",
+    "is_active": true
+  },
+  {
+    "user_id": "oparchon@gmail.com",
+    "session_id": "2f88728a-5ca7-43af-b8f6-5f9af50a61b0",
+    "login_timestamp": "2026-03-31T16:08:37.353693",
+    "is_active": false
   }
 ]
